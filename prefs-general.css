@@ -1,0 +1,115 @@
+/* Tern 0.9.8 / general — selected at runtime; not safe as a permanent global sheet. */
+.pf-doc > header.pf-head > .pf-eyebrow { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-eyebrow::before { content: "01 · 常规"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-title { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-title::before { content: "Shell、标签页与选择"; font-size: 18px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-lead { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-lead::before { content: "控制新建区块运行什么程序、标签页的起始位置，以及选中文本后的行为。"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before { content: "Shell"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before { content: "标签页与分屏"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before { content: "文本选择"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before { content: "链接"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t::before { content: "文件"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t::before { content: "保存"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t::before { content: "系统"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t::before { content: "更新"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t::before { content: "OMP"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "Shell"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "新建区块使用的登录 Shell。留空则使用系统默认 Shell（powershell.exe）。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "新标签页和分屏打开"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "指定快捷键新建标签页或分屏时启动 Shell 还是 Agent。Ctrl+Shift+` 始终打开 Shell，Ctrl+Shift+A 始终打开 Agent。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "新标签页起始目录"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "分屏始终在所拆分区块的当前目录启动。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "起始文件夹"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "新窗口、会话以及没有可继承目录的标签页从这里启动；留空或目录不存在时使用主目录。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "选中即复制"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "完成文本选择后，自动复制到剪贴板。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "打开链接的方式"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "终端输出中的链接可单击或按 Ctrl 单击打开；拖拽仍可选择文本。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "网页链接打开位置"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "按住 Alt 单击可使用另一种打开方式；文件链接始终在 Tern 内打开。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "显示隐藏文件"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "在文件面板显示点号开头的文件；.git 和 .DS_Store 始终隐藏。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "显示忽略的文件"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "将 Git 忽略的文件以淡色显示。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "搜索忽略的文件"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "文件搜索同时查找 node_modules 等被忽略的目录。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before { content: "合并单一路径文件夹"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before { content: "连续只有一个子文件夹时，将它们合并为一行显示。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before { content: "定位当前文件"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "文件面板跟随当前编辑器打开的文件（忽略目录除外）。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "单击预览"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "单击文件直接预览，即使没有打开编辑器区块。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "自动保存"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "文件区块无需按 Ctrl+S 即可保存；未保存内容在退出后仍保留。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "资源管理器集成"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "在文件夹菜单中添加“在 Tern 中打开”，并将 Tern 添加到文件的“打开方式”。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "自动更新"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "每小时检查并在后台下载新版本，退出 Tern 时安装。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "由 Tern 管理"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "Tern 自动安装和更新 omp，并将它放在终端 PATH 的前面。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "Shell"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "Agent"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "当前目录"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "起始文件夹"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "单击"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "Ctrl+单击"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "Tern 内部"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "默认浏览器"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "关闭"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "延迟保存"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "失去焦点时"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }

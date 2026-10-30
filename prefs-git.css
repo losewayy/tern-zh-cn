@@ -1,0 +1,103 @@
+/* Tern 0.9.8 · git · static settings translation */
+.pf-doc > header.pf-head > .pf-eyebrow {font-size:0!important;white-space:nowrap!important;}
+.pf-doc > header.pf-head > .pf-eyebrow::before{content:"10 · Git";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-title {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-title::before{content:"Git 区块与仓库";font-size:18px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-lead {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-lead::before{content:"设置 Git 区块与远程仓库的交互、历史记录和差异视图，以及提交身份、签名与仓库高级功能。";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before{content:"获取更新";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before{content:"历史记录";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before{content:"图表列";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before{content:"差异";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t::before{content:"提交身份";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t::before{content:"添加身份配置";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t::before{content:"SSH";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t::before{content:"签名";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t::before{content:"外部编辑器";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > h2.pf-sec-t::before{content:"Git 可执行文件";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > h2.pf-sec-t::before{content:"Git 通知";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > h2.pf-sec-t::before{content:"AI 助手";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > h2.pf-sec-t::before{content:"仓库";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > h2.pf-sec-t::before{content:"Git-flow";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"自动获取更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"获取时清理失效引用";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"拉取按钮";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"首次加载的提交数";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"滚动时继续加载";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"默认分支";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"作者";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"日期";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"提交 SHA";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"左右并排";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"以完整文件打开";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"文件树";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"文本编码";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"面板大小";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"使用 SSH Agent";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"私钥";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"公钥";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"复制公钥";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"GPG 程序";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"签名密钥";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"对提交签名";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"对标签签名";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"编辑器";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"测试";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"自定义 Git 程序";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"Git 可执行文件";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"操作成功";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"操作失败";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"模型";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"生产分支";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"开发分支";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"功能分支前缀";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"发布分支前缀";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(14) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"热修复分支前缀";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

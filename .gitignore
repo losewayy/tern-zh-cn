@@ -1,0 +1,25 @@
+# Local settings, credentials, logs, and Windows shortcuts
+*.log
+*.lnk
+*.bak
+*.backup
+*.v01-backup
+*.local.*
+*.tmp
+*.png
+# Only explicitly reviewed, cropped UI examples may be published.
+!assets/screenshots/*.png
+*.jpg
+*.jpeg
+*.webp
+.env
+.env.*
+settings.json
+tern-path.txt
+secrets.*
+*.key
+*.pem
+.cache/
+.tern/
+plugin-backups/
+shortcut-backups/

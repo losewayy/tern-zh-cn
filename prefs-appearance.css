@@ -1,0 +1,309 @@
+/* Tern 0.9.8 / appearance — selected at runtime; not safe as a permanent global sheet. */
+.pf-doc > header.pf-head > .pf-eyebrow { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-eyebrow::before { content: "03 · 外观"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-title { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-title::before { content: "主题与界面样式"; font-size: 18px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-lead { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-lead::before { content: "鼠标悬停可预览主题，单击后保存；布局、材质与密度决定终端周围的界面风格。"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before { content: "主题"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before { content: "外观"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before { content: "光标"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before { content: "界面样式"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t::before { content: "区块"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t::before { content: "程序"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "跟随 OMP 主题"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "OMP 默认深色主题为 titanium，浅色主题为 light。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "外观模式"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "选择浅色、深色或跟随系统。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "终端字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "终端网格使用的字体及字号；可以配置多个字体，留空使用内置字体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "粗体字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "粗体文本使用的字体；留空使用默认粗体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before { content: "斜体字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before { content: "斜体文本使用的字体；留空使用默认斜体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before { content: "粗斜体字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "粗斜体文本使用的字体；留空使用默认粗斜体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "字体粗细"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "终端网格的字体粗细。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before { content: "代码字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before { content: "编辑器、区块和标签中的等宽字体；留空使用默认字体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before { content: "界面字体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before { content: "标签页、菜单、设置等界面使用的字体与字号。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before { content: "行高"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before { content: "调整终端和代码的每一行高度，可使用像素或百分比。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t::before { content: "字符宽度"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before { content: "调整终端每列的宽度，不改变字符本身大小。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t::before { content: "内边距"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before { content: "终端文字到区块边缘的水平和垂直距离。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .t::before { content: "文字像素对齐"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before { content: "将文字绘制在整数像素上，提高锐度。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .t::before { content: "对比度校正"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before { content: "增强过淡的程序文本，使其更易辨认。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .t::before { content: "减少动态效果"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before { content: "降低界面动画、特效与脉冲效果。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "光标形状"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "自动模式下，程序可以按需要切换方块或竖线光标。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "允许程序修改光标"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "Shell、Vim 等程序可临时改变光标形状。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "光标闪烁"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "启用光标闪烁。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before { content: "平滑闪烁"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before { content: "光标闪烁时使用淡入淡出。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before { content: "平滑滑动"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "光标移动到新位置时的滑动时长。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "拖尾特效"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "光标快速移动时留下的拖尾效果。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before { content: "形状变化特效"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before { content: "程序切换光标形状时的动画。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before { content: "用于终端"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before { content: "终端区块使用此光标效果。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before { content: "用于聊天输入框"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before { content: "OMP 的聊天输入框也使用此效果。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t::before { content: "用于编辑器"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before { content: "文件编辑器也使用此效果。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t::before { content: "鼠标指针"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before { content: "指针移到终端上时使用的形状。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "界面布局"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "终端周围显示多少边框及装饰；可用快捷键切换。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "表面材质"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "窗口背景的显示材质。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "不透明度"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "背景遮住桌面的程度。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before { content: "模糊"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before { content: "透明材质是否模糊窗口后方的桌面。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before { content: "界面密度"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "区块紧密排列，或各自显示成卡片。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "标签页位置"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "标签页位于顶部，或竖排显示在侧边。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before { content: "自动隐藏侧边标签页"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before { content: "侧边标签栏缩进窗口边缘，鼠标悬停时展开。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before { content: "使用系统标题栏"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before { content: "使用系统的窗口标题栏和控制按钮。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before { content: "程序图标"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before { content: "自定义标签页和区块里的程序图标。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "区块标题栏"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "设置区块标题栏何时显示。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "状态栏"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "在区块下方显示路径、分支、命令状态等信息。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "tmux 状态栏"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "以 Tern 的风格绘制 tmux 状态栏。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "聊天布局"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "阅读：居中排版；时间线：按步骤展示；控制台：终端风格。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "折叠工具调用"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "将连续的工具调用和思考过程归纳折叠。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before { content: "展开思考"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before { content: "始终展示 OMP 的完整思考内容。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before { content: "上下文进度条"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before { content: "在聊天输入框上方显示上下文占用情况。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before { content: "保持输入框展开"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "切换到其他区块时仍保持完整聊天输入框。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "输入框显示方式"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "选择 Markdown 富文本或纯文本。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before { content: "Markdown 标题"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before { content: "控制标题的自动字号或标注显示。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before { content: "代码修改对比"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before { content: "代码差异使用行内或左右分栏布局。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before { content: "制表符宽度"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before { content: "代码和差异视图中一个 Tab 占用的列数。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "跟随系统"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "浅色"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "深色"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "浅色主题"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "始终"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(13) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "关闭"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "跟随系统"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "开启"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(14) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "关闭"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "自动"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "方块"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "柔和方块"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(4) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(4)::before { content: "竖线"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(5) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(5)::before { content: "下划线"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "关闭"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "拉伸"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "彗尾"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(4) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(4)::before { content: "火焰"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(5) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(5)::before { content: "火花"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(6) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(6)::before { content: "残影"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "关闭"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "波纹"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "扩散"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(4) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(4)::before { content: "方框波纹"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(5) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(5)::before { content: "方框扩散"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "文本指针"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(11) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "箭头"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "侧栏"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "浮动"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "平铺"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(4) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(4)::before { content: "工作台"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "液态玻璃"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "通透"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "纯色"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "卡片"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "紧凑"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "顶部"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "侧边"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "从不"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "分屏时"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "始终"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "阅读"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "时间线"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "控制台"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "纯文本"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(6) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "Markdown"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "自动"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "标注"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(7) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "大标题"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "行内"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(8) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "分栏"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }

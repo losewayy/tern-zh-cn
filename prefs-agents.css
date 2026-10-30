@@ -1,0 +1,63 @@
+/* Tern 0.9.8 / agents — activate only on this Settings category. */
+.pf-doc > header.pf-head > .pf-eyebrow { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-eyebrow::before { content: "02 · 智能体"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-title { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-title::before { content: "编程智能体"; font-size: 18px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > header.pf-head > .pf-lead { font-size: 0 !important; }
+.pf-doc > header.pf-head > .pf-lead::before { content: "设置智能体区块的程序和打开方式、后台通知，以及 Tern 内的 ACP 聊天。"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before { content: "默认"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before { content: "通知"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before { content: "ACP 聊天"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before { content: "自定义智能体"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t::before { content: "MCP 服务器"; font-size: 14px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "默认智能体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "设置 Ctrl+Shift+A 新建的智能体区块运行的程序。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "智能体打开位置"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "新智能体可在分屏、替换当前区块或新标签页中打开。替换仅适用于当前空闲 Shell。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "需要处理"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "Tern 在后台时，智能体等待你操作或回答问题会发出系统通知；点击通知可跳转到对应区块。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "任务完成"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "Tern 在后台时，智能体完成或执行失败会发出系统通知。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "以 ACP 聊天打开智能体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "在新 Shell 中输入 claude、codex 或 copilot 可通过 ACP 在 Tern 内聊天；使用 command claude 则运行原本的命令行界面。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before { content: "显示 Claude 思考"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before { content: "显示 Claude 的思考摘要；设置 MAX_THINKING_TOKENS=0 可关闭思考。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "自定义智能体"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "通过标准输入输出使用 ACP 协议的智能体命令；环境变量可在 settings.json 设置。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "服务器"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before { content: "供 Tern 中的聊天智能体使用的工具；环境变量和请求头在 settings.json 中配置。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(1)::before { content: "分屏"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "替换"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "新标签页"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) .pf-ctl > button.btn { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) .pf-ctl > button.btn::before { content: "添加"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(4) .pf-list > .pf-empty { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(4) .pf-list > .pf-empty::before { content: "暂无自定义智能体。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) .pf-ctl > button.btn { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) .pf-ctl > button.btn::before { content: "添加"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) .pf-list > .pf-empty { font-size: 0 !important; }
+.pf-doc > section.pf-sec:nth-of-type(5) .pf-list > .pf-empty::before { content: "暂无 MCP 服务器。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }

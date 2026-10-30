@@ -1,0 +1,23 @@
+/* Tern 0.9.8 · carly · static settings translation */
+.pf-doc > header.pf-head > .pf-eyebrow {font-size:0!important;white-space:nowrap!important;}
+.pf-doc > header.pf-head > .pf-eyebrow::before{content:"08 · Carly";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-title {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-title::before{content:"你的助手";font-size:18px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-lead {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-lead::before{content:"Carly 基于你的 OMP 工作，可读取和操作区块、切换标签、打开内容并记住你告诉她的事项；还支持语音输入。";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before{content:"智能体";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before{content:"语音";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before{content:"计划任务";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"模型";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"记忆";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"语音";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"启动时使用语音";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"执行频率";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

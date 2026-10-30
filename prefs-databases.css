@@ -1,0 +1,133 @@
+/* Tern 0.9.8 · databases · static settings translation */
+.pf-doc > header.pf-head > .pf-eyebrow {font-size:0!important;white-space:nowrap!important;}
+.pf-doc > header.pf-head > .pf-eyebrow::before{content:"06 · 数据库";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-title {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-title::before{content:"SQLite 数据库";font-size:18px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-lead {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-lead::before{content:"配置数据库区块如何打开、浏览与编辑 SQLite 文件。";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before{content:"常规";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before{content:"数据库文件类型";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before{content:"数据库";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before{content:"数据浏览器";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > h2.pf-sec-t::before{content:"单元格颜色";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > h2.pf-sec-t::before{content:"编辑单元格";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > h2.pf-sec-t::before{content:"从结构树拖拽";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > h2.pf-sec-t::before{content:"SQL 编辑器";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > h2.pf-sec-t::before{content:"扩展";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"默认位置";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"文件夹";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"最近打开的文件";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"最近文件的只读快捷方式";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"恢复时重新打开数据库";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before{content:"关闭 SQL 标签时询问";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"文件类型";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"默认编码";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"外键约束";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"移除结构定义中的换行";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"预读取块大小";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"默认字段类型";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before{content:"结构树字体大小";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before{content:"刷新只读数据库";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before{content:"不再询问排序规则";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before{content:"打开后执行的 SQL";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"字体";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"字号";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"行数限制";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"单元格字符数限制";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"自动补全阈值";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before{content:"在单元格显示图片";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before{content:"单元格文本换行";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before{content:"筛选延迟";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before{content:"转义字符";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t::before{content:"NULL 显示文本";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t::before{content:"BLOB 显示文本";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"NULL 单元格";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"BLOB 单元格";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"普通单元格";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"格式化单元格";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"紧凑缩进";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"JSON 键排序";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"自动切换模式";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"文本换行";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"生成 SELECT 语句";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"生成 INSERT 语句";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"包含限定名";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"为名称添加引号";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"字体";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"字号";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"结果字号";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .t::before{content:"制表符宽度";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .t::before{content:"使用 Tab 缩进";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before{content:"自动换行";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .t::before{content:"标识符引号";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .t::before{content:"代码补全";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .t::before{content:"关键字大小写";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .t::before{content:"错误标记";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .t::before{content:"左右并排结果";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .t::before{content:"标签页关闭按钮";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"扩展模块";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"禁用 REGEXP";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"允许通过 SQL 调用 load_extension";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

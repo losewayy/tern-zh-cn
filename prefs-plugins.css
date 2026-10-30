@@ -1,0 +1,25 @@
+/* Tern 0.9.8 Plugins settings */
+div.pf-doc > header:nth-of-type(1).pf-head > h1:nth-of-type(1).pf-title { font-size:0!important; }
+div.pf-doc > header:nth-of-type(1).pf-head > h1:nth-of-type(1).pf-title::before { content:"Luau 插件";font-size:18px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > header:nth-of-type(1).pf-head > p:nth-of-type(1).pf-lead { font-size:0!important; }
+div.pf-doc > header:nth-of-type(1).pf-head > p:nth-of-type(1).pf-lead::before { content:"插件可在本机及连接的远程主机添加区块、命令、筛选器和样式；每个插件都能独立关闭。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > h2:nth-of-type(1).pf-sec-t { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > h2:nth-of-type(1).pf-sec-t::before { content:"插件";font-size:14px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(1).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(1).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before { content:"加载插件";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(1).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(1).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before { content:"从插件目录加载扩展的区块、筛选器、命令和样式；关闭后不加载任何插件。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before { content:"插件目录";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before { content:"重新加载后，本窗口及会话后台将应用新增、移除或修改的插件。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(1).btn { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(1).btn::before { content:"重新加载";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(2).btn { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(2).btn::before { content:"打开插件目录";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before { content:"安装插件…";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before { content:"输入本地插件目录或 Git URL，将其复制到插件目录。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(1).btn { font-size:0!important; }
+div.pf-doc > section:nth-of-type(1).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(2).pf-ctl > div:nth-of-type(1).pf-btns > button:nth-of-type(1).btn::before { content:"安装";font-size:12px;line-height:1.45;display:inline-block;white-space:normal; }

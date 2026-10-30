@@ -1,0 +1,7 @@
+schema = 1
+id = "tern-zh-plus"
+name = "Tern 简体中文"
+version = "0.4.0"
+description = "适配 Tern 0.9.8 的非官方简体中文界面插件（Windows）"
+window = "window.luau"
+styles = ["base.css"]

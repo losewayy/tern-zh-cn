@@ -1,0 +1,17 @@
+/* Tern 0.9.8 · hosts · static settings translation */
+.pf-doc > header.pf-head > .pf-eyebrow {font-size:0!important;white-space:nowrap!important;}
+.pf-doc > header.pf-head > .pf-eyebrow::before{content:"13 · 主机";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-title {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-title::before{content:"远程主机";font-size:18px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > header.pf-head > .pf-lead {font-size:0!important;white-space:normal!important;}
+.pf-doc > header.pf-head > .pf-lead::before{content:"管理运行 Tern 远程服务的计算机、远程会话，以及受信任的主机密钥。";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > h2.pf-sec-t::before{content:"共享";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > h2.pf-sec-t::before{content:"已连接主机";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before{content:"主机密钥";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"共享会话";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"添加主机";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
