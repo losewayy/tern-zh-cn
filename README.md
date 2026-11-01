@@ -1,83 +1,37 @@
-# Tern 简体中文
+# Tern 简体中文（本地版）0.5.0（适配 Tern 0.9.9）
 
-Tern 的非官方简体中文插件，基于原生 Luau 插件与 CSS 样式。Windows 版本提供设置页面自动切换及命令面板文字汉化。
+## 使用方法
 
-**兼容环境：Windows · Tern 0.9.8**
+双击桌面的「Tern 中文版」启动。启动器会在 Tern 窗口存活期间监听设置页的标签切换，收到事件时通过 Tern 官方 `ctl css` 接口换上对应页面的汉化样式，不做定时检查，也不读取聊天、终端内容或密钥。
 
-## 截图
+已覆盖：命令面板，以及全部 14 个设置分类（常规、智能体、外观、终端、原生视图、数据库、笔记本、Carly、键盘、Git、插件、会话、主机、高级）的标题、说明文字与主要控件。
 
-| 常规设置 | 外观设置 |
-| :---: | :---: |
-| ![常规设置](assets/screenshots/settings-general-zh.png) | ![外观设置](assets/screenshots/settings-appearance-zh.png) |
-| 原生视图 | 快捷键 |
-| ![原生视图](assets/screenshots/settings-lenses-zh.png) | ![快捷键](assets/screenshots/settings-keyboard-zh.png) |
-| 智能体 | 插件 |
-| ![智能体](assets/screenshots/settings-agents-zh.png) | ![插件](assets/screenshots/settings-plugins-zh.png) |
+Tern 原程序、OMP 和设置值均未修改。
 
-命令面板：
+## 更新 Tern 之后中文消失
 
-![命令面板中文显示](assets/screenshots/command-palette-zh.png)
+Tern 自动更新后会自己重启窗口，这个过程不经过中文启动器，所以桥接进程不会启动，界面会变回英文。**重新双击桌面快捷方式即可恢复**，插件和样式都没有丢。
 
-## 功能
+如果双击后仍然是英文，看 `%TEMP%\tern-zh-launch.log` 里的报错，通常是找不到 `tern.exe`：把它的完整路径写进 `%LOCALAPPDATA%\TernZhPlus\tern-path.txt` 即可。
 
-- 翻译设置界面的固定标题、选项名称以及部分说明文字。
-- 覆盖常规、智能体、外观、终端、原生视图、数据库、笔记本、Carly、快捷键、Git、插件、会话、主机和高级设置。
-- 添加常用操作的中文命令入口，可通过命令面板搜索并执行。
-- Windows 启动器通过 UI Automation 事件切换页面样式，并尝试汉化命令面板当前显示的内置命令。
+## 文件
 
-汉化只影响界面显示，不修改 Tern 的命令、快捷键或设置值。
+- `base.css`：公共界面标签翻译
+- `prefs-*.css`：各设置分类的汉化样式（仅在对应页面加载）
+- `window.luau`：中文命令注册，无定时器
+- `TernChineseBridge.cs`：Windows UI Automation 事件监听，负责切换页面样式
+- `TernCommandLabels.cs`：命令面板标签替换
+- `ui-labels.tsv`：命令面板英文到中文的对照表
+- `启动中文 Tern.ps1`：启动窗口并在其存活期间监听标签事件
+- `启动中文 Tern.cmd`：命令行入口
+- `设置快捷方式.ps1`：创建或恢复桌面快捷方式
 
-## 安装
+## 日志与还原
 
-1. 安装 [Tern](https://stencil.so/tern)。
-2. 下载本仓库源码，将文件放到以下目录（不存在时自行创建）：
+事件监听日志在 `%TEMP%\tern-zh-bridge-<pid>.log`，启动错误在 `%TEMP%\tern-zh-launch.log`。
 
-   ```text
-   %APPDATA%\Tern\plugins\tern-zh-plus\
-   ```
-
-   确认 `plugin.toml`、`window.luau`、`TernChineseBridge.cs` 等文件直接位于该目录下，而不是多嵌套了一层文件夹。
-
-3. 在 Tern 中执行 `tern plugin reload`。
-4. 双击插件目录中的 **`启动中文 Tern.cmd`** 启动 Tern。
-
-若启动器找不到 `tern.exe`，可以设置环境变量 `TERN_EXE`，或在以下文件中填写其完整路径：
-
-```text
-%LOCALAPPDATA%\TernZhPlus\tern-path.txt
-```
-
-路径文件只保留在本机，不要放进仓库。
-
-### 使用原来的 Tern 快捷方式
-
-安装后可运行 `设置快捷方式.ps1`，将桌面和开始菜单中指向 `tern.exe` 的快捷方式改为使用中文版启动器。脚本会先备份原快捷方式，不会设置开机自启。
-
-## 使用说明
-
-设置页面汉化依赖 Windows 启动器。关闭 Tern 后，对应的事件监听进程也会退出。
-
-直接运行原版 `tern.exe` 时，插件提供的基础界面文字和中文命令入口仍然可用，但无法自动切换不同设置分类的翻译样式。
+卸载时关闭 Tern 中文版，删除 `tern-zh-plus` 插件目录及桌面快捷方式即可。
 
 ## 已知限制
 
-- 仅针对 Tern 0.9.8 进行适配。新版本可能需要调整 CSS 选择器。
-- 命令面板保留 Tern 原有的英文命令数据；中文别名支持搜索，内置命令的原位中文显示取决于 Windows UI Automation 事件，部分情况下仍会显示英文。
-- 右键菜单、部分弹窗、输入框占位符及动态提示尚未完整汉化。
-- macOS 和 Linux 暂不支持 Windows 事件桥接功能。
-
-## 项目结构
-
-- `window.luau`、`extra_commands.luau`：中文命令入口
-- `base.css`、`prefs-*.css`：界面文字样式
-- `ui-labels.tsv`：内置命令名称的中英文对照
-- `TernChineseBridge.cs`：设置分类切换监听
-- `TernCommandLabels.cs`：命令面板可见条目的中文样式更新
-- `启动中文 Tern.ps1`、`启动中文 Tern.cmd`：Windows 启动器
-- `设置快捷方式.ps1`：可选的快捷方式配置工具
-
-## 许可证
-
-[MIT License](LICENSE)
-
-本项目与 Tern、Stencil 或 OMP 官方无隶属关系；仓库不包含其闭源程序。
+翻译靠 CSS 隐藏英文原文、再用 `::before` 显示中文，因此依赖 Tern 的类名和页面结构。Tern 改版后个别页面可能失效，需要重新对照新版界面调整选择器。

@@ -13,10 +13,10 @@
 .pf-doc > section.pf-sec:nth-of-type(3) > h2.pf-sec-t::before{content:"启动时";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t {font-size:0!important;white-space:normal!important;}
 .pf-doc > section.pf-sec:nth-of-type(4) > h2.pf-sec-t::before{content:"关闭窗口";font-size:14px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
-.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"登录时启动";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"套接字";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"登录时启动";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .t::before{content:"套接字";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
 .pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"会话";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
@@ -25,3 +25,19 @@
 .pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"重新连接远程主机";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
 .pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"关闭前确认";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+/* zh-plus: hints 0.9.9 */
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"登录时启动守护进程，不打开窗口，并恢复它保留的会话：中途被中断的智能体（崩溃、断电）会从断点继续。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"窗口以及区块中的 tern whoami 连接守护进程的位置。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"在侧边标签列表和任务控制中。普通单击保留当前会话，双击才切换；会话切换器（Ctrl+Shift+Space）和收件箱始终切换。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"上一个窗口使用过的主机会在后台重新连接。本机的会话总会恢复：守护进程会保留它们。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"关闭区块、标签页或会话会结束其程序。仅当有程序繁忙（正在执行命令、智能体处理中、编辑器）时才询问；空闲的 shell 和智能体会立即关闭。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+/* end zh-plus: hints */
+/* zh-plus: extra 0.9.9 */
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1) {font-size:0!important;white-space:normal!important;}
+main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)::before{content:"套接字";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+/* end zh-plus: extra */
