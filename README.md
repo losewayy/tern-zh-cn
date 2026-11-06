@@ -14,6 +14,12 @@
 
 ![命令面板中文显示](assets/screenshots/command-palette-zh.png)
 
+OMP 原生设置页（需安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)，部分说明仍为英文）：
+
+| 模型设置 | 文件设置 |
+| :---: | :---: |
+| ![OMP 模型设置](assets/screenshots/omp-settings-model-zh.png) | ![OMP 文件设置](assets/screenshots/omp-settings-files-zh.png) |
+
 ## 使用方法
 
 双击桌面的「Tern 中文版」启动。启动器会在 Tern 窗口存活期间监听设置页的标签切换，收到事件时通过 Tern 官方 `ctl css` 接口换上对应页面的汉化样式，不做定时检查，也不读取聊天、终端内容或密钥。
