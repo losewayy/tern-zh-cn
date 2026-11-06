@@ -1,5 +1,19 @@
 # Tern 简体中文（本地版）0.5.1（适配 Tern 0.9.12）
 
+## 截图
+
+| 常规设置 | 外观设置 |
+| :---: | :---: |
+| ![常规设置](assets/screenshots/settings-general-zh.png) | ![外观设置](assets/screenshots/settings-appearance-zh.png) |
+| 原生视图 | 快捷键 |
+| ![原生视图](assets/screenshots/settings-lenses-zh.png) | ![快捷键](assets/screenshots/settings-keyboard-zh.png) |
+| 智能体 | 插件 |
+| ![智能体](assets/screenshots/settings-agents-zh.png) | ![插件](assets/screenshots/settings-plugins-zh.png) |
+
+命令面板：
+
+![命令面板中文显示](assets/screenshots/command-palette-zh.png)
+
 ## 使用方法
 
 双击桌面的「Tern 中文版」启动。启动器会在 Tern 窗口存活期间监听设置页的标签切换，收到事件时通过 Tern 官方 `ctl css` 接口换上对应页面的汉化样式，不做定时检查，也不读取聊天、终端内容或密钥。
