@@ -1,12 +1,12 @@
 /* Tern 0.9.8 zh-plus -- fixed-width labels, no vertical wrapping. */
 /* The original English text is visually hidden; the clickable elements remain unchanged. */
-.pf .pf-name {
+main#panel > .tn-stage > .pf.sheet .pf-name {
   font-size: 0 !important;
   min-width: 40px !important;
   white-space: nowrap !important;
   flex-shrink: 0 !important;
 }
-.pf .pf-name::before {
+main#panel > .tn-stage > .pf.sheet .pf-name::before {
   content: "设置";
   font-size: 16px;
   display: inline-block;

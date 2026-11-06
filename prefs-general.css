@@ -72,9 +72,9 @@
 .pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h { font-size: 0 !important; }
 .pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before { content: "文件面板跟随当前编辑器打开的文件（忽略目录除外）。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
 .pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t { font-size: 0 !important; }
-.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "单击预览"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .t::before { content: "单击打开"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
 .pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h { font-size: 0 !important; }
-.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "单击文件直接预览，即使没有打开编辑器区块。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before { content: "单击文件后将其显示在当前区块之上，点击其他位置时关闭。"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t { font-size: 0 !important; }
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before { content: "自动保存"; font-size: 13px; line-height: 1.45; display: inline-block; white-space: normal; vertical-align: baseline; }
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h { font-size: 0 !important; }

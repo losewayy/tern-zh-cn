@@ -63,11 +63,23 @@ div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nt
 div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(2).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"日志目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
 div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(2).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
 div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(2).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"可使用 STENCIL_LOG 设置日志级别，使用 STENCIL_TRACE 记录性能数据。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t {font-size:0!important;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"主题目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"在这里放置自定义 CSS 主题；编辑后即时更新，可自行创建目录。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
 div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t {font-size:0!important;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"OMP 目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"主题目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
 div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
-div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"Tern 在此读取 OMP 主题配置 config.yml 及 themes/ 目录，留空使用 OMP 默认路径。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(4).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"在这里放置自定义 CSS 主题；编辑后即时更新，可自行创建目录。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(6).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(6).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"OMP 目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(6).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(6).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"Tern 在此读取 OMP 主题配置 config.yml 及 themes/ 目录，留空使用 OMP 默认路径。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"发送崩溃报告";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(3).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"当 Tern 崩溃时，向 Stencil 发送错误、最近的日志以及系统和显卡信息；报告也会保留在日志文件夹中。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(5).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(5).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(1).t::before{content:"语法目录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(5).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h {font-size:0!important;}
+div.pf-doc > section:nth-of-type(3).pf-sec > div:nth-of-type(1).pf-rows > div:nth-of-type(5).pf-row > div:nth-of-type(1).pf-lbl > div:nth-of-type(2).h::before{content:"在这里添加或替换 Sublime 语法文件以支持更多语言；更改会在重启后生效。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

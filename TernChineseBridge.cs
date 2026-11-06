@@ -2,6 +2,8 @@ using System;
 using System.IO;
 using System.Diagnostics;
 using System.Threading;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Automation;
 
 // Windows-native event bridge. No polling, no DOM scraping, no networking.
@@ -75,12 +77,86 @@ public static class TernChineseBridge {
                 " " + message + Environment.NewLine);
         } catch {}
     }
+    // Scope styles to Tern's own sheet. OMP's native settings use the same
+    // .pf-doc classes in a surface and must never receive these translations.
+    private static string PreparePageStyles(string page) {
+        string input = Path.Combine(rootDir, "prefs-" + page + ".css");
+        string directory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TernZhPlus", "scoped-styles");
+        Directory.CreateDirectory(directory);
+        string output = Path.Combine(directory, "prefs-" + page + ".css");
+        string scope = "main#panel > .tn-stage > .pf.sheet > .pf-scroll > ";
+        var scoped = new StringBuilder();
+        foreach (string line in File.ReadLines(input, Encoding.UTF8)) {
+            // Old full-tree selectors refer to obsolete child positions and
+            // were not validated for the current settings tree.
+            if (line.TrimStart().StartsWith("main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)", StringComparison.Ordinal)) continue;
+            scoped.AppendLine(Regex.Replace(line, @"^(\s*)(?=(?:div)?\.pf-doc\b)", "$1" + scope));
+        }
+        File.WriteAllText(output, scoped.ToString(), new UTF8Encoding(false));
+        return output;
+    }
+    // UIA exposes both Tern and OMP tabs as "Pages". Resolve the selected
+    // native Tern page from its own control state instead of trusting the tab
+    // that happened to fire the event; inspect no other state fields.
+    // Extract only the top-level prefs field. Avoid deserializing unrelated
+    // terminal/session state, which can be deeply nested and contain user data.
+    private static string FindTopLevelPage(string json) {
+        int depth = 0;
+        for (int i = 0; i < json.Length; i++) {
+            char c = json[i];
+            if (c == '"') {
+                int start = i + 1;
+                bool escaped = false;
+                while (++i < json.Length) {
+                    if (escaped) { escaped = false; continue; }
+                    if (json[i] == '\\') { escaped = true; continue; }
+                    if (json[i] == '"') break;
+                }
+                if (i >= json.Length) return null;
+                if (depth != 1 || i - start != 5 || json.Substring(start, 5) != "prefs") continue;
+                int j = i + 1;
+                while (j < json.Length && char.IsWhiteSpace(json[j])) j++;
+                if (j >= json.Length || json[j] != ':') continue;
+                j++;
+                while (j < json.Length && char.IsWhiteSpace(json[j])) j++;
+                if (j + 4 <= json.Length && json.Substring(j, 4) == "null") return "";
+                Match page = Regex.Match(json.Substring(j), @"^\{\s*""page""\s*:\s*""([a-z]+)""");
+                return page.Success ? page.Groups[1].Value : null;
+            }
+            if (c == '{' || c == '[') depth++;
+            else if (c == '}' || c == ']') depth--;
+        }
+        return null;
+    }
+    private static string GetNativeSettingsPage() {
+        var si = new ProcessStartInfo(exe, "ctl --control " + endpoint + " state");
+        si.UseShellExecute = false;
+        si.CreateNoWindow = true;
+        si.RedirectStandardOutput = true;
+        si.RedirectStandardError = true;
+        try {
+            using (var p = new Process()) {
+                p.StartInfo = si;
+                var output = new StringBuilder();
+                p.OutputDataReceived += delegate(object sender, DataReceivedEventArgs e) { if (e.Data != null) output.AppendLine(e.Data); };
+                p.ErrorDataReceived += delegate(object sender, DataReceivedEventArgs e) {};
+                p.Start();
+                p.BeginOutputReadLine();
+                p.BeginErrorReadLine();
+                if (!p.WaitForExit(2500)) { try { p.Kill(); } catch {} return null; }
+                p.WaitForExit();
+                if (p.ExitCode != 0) return null;
+                return FindTopLevelPage(output.ToString());
+            }
+        } catch (Exception ex) { Note("settings state unavailable: " + ex.GetType().Name); return null; }
+    }
     private static bool Update(string page) {
         var si = new ProcessStartInfo();
         si.FileName = exe;
         string args = "ctl --control " + endpoint + " css tern-zh-settings";
         if (!string.IsNullOrEmpty(page)) {
-            args += " \"" + Path.Combine(rootDir, "prefs-" + page + ".css") + "\"";
+            try { args += " \"" + PreparePageStyles(page) + "\""; }
+            catch (Exception ex) { Note("settings styles unavailable: " + ex.GetType().Name); return false; }
         }
         si.Arguments = args;
         si.UseShellExecute = false;
@@ -130,6 +206,9 @@ public static class TernChineseBridge {
                 if (reason == 1 || observed.HasExited) break;
                 string next;
                 lock (Gate) { next = latest; }
+                if (next == null) continue;
+                Thread.Sleep(75); // Allow the selected native page state to settle.
+                next = GetNativeSettingsPage();
                 if (next == null || next == current) continue;
                 if (Update(next)) {
                     current = next;

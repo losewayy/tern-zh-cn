@@ -474,23 +474,25 @@
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(119) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(119) > .pf-lbl > .t::before{content:"复制文件 path";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(120) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(120) > .pf-lbl > .t::before{content:"退出 Stencil 登录";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(120) > .pf-lbl > .t::before{content:"登录 Stencil";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(121) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(121) > .pf-lbl > .t::before{content:"检查更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(121) > .pf-lbl > .t::before{content:"退出 Stencil 登录";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(122) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(122) > .pf-lbl > .t::before{content:"更新内容：版本说明";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(122) > .pf-lbl > .t::before{content:"检查更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(123) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(123) > .pf-lbl > .t::before{content:"帮助与文档";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(123) > .pf-lbl > .t::before{content:"更新内容：版本说明";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(124) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(124) > .pf-lbl > .t::before{content:"重启以安装更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(124) > .pf-lbl > .t::before{content:"帮助与文档";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(125) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(125) > .pf-lbl > .t::before{content:"Restart 会话 daemon";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(125) > .pf-lbl > .t::before{content:"重启以安装更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(126) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(126) > .pf-lbl > .t::before{content:"安装 omp";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(126) > .pf-lbl > .t::before{content:"Restart 会话 daemon";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(127) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(127) > .pf-lbl > .t::before{content:"检查 omp 更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(127) > .pf-lbl > .t::before{content:"安装 omp";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(128) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
-.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(128) > .pf-lbl > .t::before{content:"停止托管 omp";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(128) > .pf-lbl > .t::before{content:"检查 omp 更新";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(129) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(7) > .pf-rows > .pf-row:nth-of-type(129) > .pf-lbl > .t::before{content:"停止托管 omp";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
 .pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"选择全部匹配项";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 .pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
