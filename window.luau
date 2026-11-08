@@ -1,4 +1,4 @@
--- Tern Chinese aliases. Settings localization is handled by Windows UIA events (no timers).
+-- Tern Chinese aliases and per-window settings localization.
 
 local aliases = {
     { "新建标签页", "标签页", "new_tab" },
@@ -78,3 +78,7 @@ end
 
 -- Verified native-command Chinese aliases (no new keybindings).
 require("./extra_commands")
+
+if tern.runtime.os == "windows" then
+    require("./auto-bridge")
+end

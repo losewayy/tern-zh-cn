@@ -6,6 +6,9 @@
 *.v01-backup
 *.local.*
 *.tmp
+*.exe
+*.pdb
+__pycache__/
 *.png
 # Only explicitly reviewed, cropped UI examples may be published.
 !assets/screenshots/*.png
