@@ -23,6 +23,8 @@
 
 图中是操作示意，不是安装成功的实际输出。安装过程中需要联网。安装完成后，日常汉化在本机运行，无需在线翻译。
 
+**方法二，图形界面安装：** 在 Tern 设置的 **Plugins** 页面，将 `github.com/losewayy/tern-zh-cn` 粘贴到 **Install…** 的输入框，点击 **Install**，安装成功后重新打开 Tern。同样需要 Git 和网络。
+
 ## 更新已安装的插件
 
 先保存工作并关闭所有 Tern 窗口，然后从 Windows 开始菜单打开 **PowerShell** 或 **Windows 终端**，粘贴下面的命令并按回车：
