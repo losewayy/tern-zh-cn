@@ -1,5 +1,56 @@
 # Tern 简体中文 0.7.1（Windows，适配 Tern 0.9.23）
 
+适用于 Windows 的非官方 Tern 汉化插件，安装后随 Tern 自动加载，无需单独打开启动脚本。本项目不包含 Tern 主程序，也不是 Tern 官方发行版。
+
+[查看发行版本](https://github.com/losewayy/tern-zh-cn/releases/latest) · [查看更新记录](CHANGELOG.md) · [隐私说明](PRIVACY.md)
+
+## 第一次使用
+
+**不需要注册 GitHub 账号，也不用下载源码 ZIP。** 已经安装 Tern 的用户，按下面三步操作即可。
+
+准备：使用 Windows，并安装受支持的 Tern。当前推荐 Tern **0.9.23 (35c63ab)**，也兼容 **0.9.12 (e498b49)** 和 **0.9.9 (9c1c09f)**。版本号相同但构建编号不同，也可能无法启用设置页汉化。在线安装还需要 Git；如果电脑没有安装，请先从 [Git 官方 Windows 下载页](https://git-scm.com/install/windows) 安装 Git，装好后重新打开 Tern。
+
+1. 打开 Tern，找到能输入命令的终端区域。不要在设置搜索框里输入。
+2. 点击下面代码块右上角的复制按钮，粘贴到终端，按 **Enter（回车）**，等待安装命令结束。
+
+   ```text
+   tern plugin install github.com/losewayy/tern-zh-cn
+   ```
+
+3. 确认安装成功后，保存正在进行的工作，关闭所有 Tern 窗口，再重新打开 Tern。打开设置，检查左侧是否显示“常规、智能体、外观、终端”等中文分类。
+
+![首次安装操作示意：打开 Tern 终端，粘贴安装命令并回车，安装成功后重新打开 Tern](assets/screenshots/install-guide.png)
+
+图中是操作示意，不是安装成功的实际输出。安装过程中需要联网。安装完成后，日常汉化在本机运行，无需在线翻译。
+
+## 更新已安装的插件
+
+先保存工作并关闭所有 Tern 窗口，然后从 Windows 开始菜单打开 **PowerShell** 或 **Windows 终端**，粘贴下面的命令并按回车：
+
+```text
+tern plugin install github.com/losewayy/tern-zh-cn --force
+```
+
+命令成功结束后，重新打开 Tern。Windows 可能在 Tern 窗口打开时占用插件目录，因此请先关掉窗口再更新。
+
+上述在线安装和更新命令获取仓库主分支的当前版本，不会锁定某次发行。发行页会记录每次发布对应的版本、适配范围和已知限制。
+
+## 安装遇到问题
+
+- **提示找不到 `tern`，或“无法将 tern 识别为命令”：** 先确认 Tern 主程序已安装，关闭并重新打开终端后重试。仍然找不到时，使用 Tern 安装目录中的 `tern.com` 的完整路径执行命令；PowerShell 中的写法是 `& "<Tern 安装目录>/tern.com" plugin install github.com/losewayy/tern-zh-cn`，请将占位内容换成实际目录。
+- **提示找不到 Git：** 安装上面链接中的 Git，重新打开 Tern 后重试。
+- **提示插件已经安装：** 按上面的“更新已安装的插件”操作，使用带 `--force` 的命令。
+- **下载失败或连接超时：** 确认电脑能连接 GitHub，然后重新运行安装命令。下载失败不代表已经装好。
+- **装好后设置仍是英文：** 先重新打开 Tern，再检查设置页的版本号及构建编号是否在支持范围内。未知构建会保留设置英文，避免把翻译套在错误位置。搜索结果和部分动态文字目前也会保留英文。
+
+## 使用说明
+
+安装并启用后，直接使用 Tern 即可。从桌面、开始菜单、文件夹右键或其他入口打开，插件都会自动启动对应窗口的汉化小程序；关闭该窗口后，小程序会自动退出，不会随 Windows 开机启动。旧版中文快捷方式仍可使用，但不是必需的。
+
+首次运行会在本机准备小程序，之后会复用已准备的文件以加快启动；文件留在本机时不会自行运行。
+
+目前针对 Windows 上的 Tern 0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.23 使用新版弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要单独安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)。
+
 ## 截图
 
 以下设置截图使用 Tern 0.9.23 的新版弹窗布局。OMP 截图展示独立的 omp-di18n 扩展。
@@ -21,18 +72,6 @@ OMP 原生设置页（需安装 [omp-di18n 汉化扩展](https://github.com/lose
 | 模型设置 | 文件设置 |
 | :---: | :---: |
 | ![OMP 模型设置](assets/screenshots/omp-settings-model-zh.png) | ![OMP 文件设置](assets/screenshots/omp-settings-files-zh.png) |
-
-## 安装与使用
-
-首次安装：在 Tern 终端运行 `tern plugin install github.com/losewayy/tern-zh-cn`。
-
-更新已安装的插件时，先关闭所有 Tern 窗口，再在其他终端运行 `tern plugin install github.com/losewayy/tern-zh-cn --force`。Windows 可能在 Tern 窗口打开时占用插件目录，因此更新前需要关掉窗口。
-
-安装并启用后，直接使用 Tern 即可。从桌面、开始菜单、文件夹右键或其他入口打开，插件都会自动启动对应窗口的汉化小程序；关闭该窗口后，小程序会自动退出，不会随 Windows 开机启动。旧版中文快捷方式仍可使用，但不是必需的。
-
-首次运行会在本机准备小程序，之后会复用已准备的文件以加快启动；文件留在本机时不会自行运行。
-
-目前针对 Windows 上的 Tern 0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.23 使用新版弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要单独安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)。
 
 ## 汉化范围
 
