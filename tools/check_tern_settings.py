@@ -5,7 +5,7 @@ from pathlib import Path
 
 PAGES = ('general','agents','appearance','terminal','lenses','databases','notebooks','carly','keyboard','git','plugins','sessions','hosts','advanced')
 SELECTOR = '.pf-doc .pf-lbl > .t, .pf-doc .pf-lbl > .h, .pf-doc .pf-sec-t, .pf-doc .pf-title, .pf-doc .pf-lead'
-BASELINE = Path(__file__).with_name('tern-0.9.12-settings.json')
+BASELINE = Path(__file__).with_name('tern-0.9.23-settings.json')
 FLAGS = subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
 
 def call(exe, port, *args):
@@ -39,16 +39,19 @@ def capture(exe, port):
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--exe', required=True, help='Path to tern.com')
-    parser.add_argument('--record-from-port', type=int, help='Record from an already running headless 0.9.12 harness')
+    parser.add_argument('--baseline', type=Path, default=BASELINE, help='Reviewed settings baseline to compare')
+    parser.add_argument('--record-from-port', type=int, help='Record from an already running headless harness')
     args=parser.parse_args(); exe=str(Path(args.exe))
     if args.record_from_port:
         data=capture(exe,args.record_from_port)
-        BASELINE.write_text(json.dumps({'version':'0.9.12','pages':data},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        args.baseline.write_text(json.dumps({'version':'0.9.23','pages':data},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         print('Recorded',sum(map(len,data.values())),'settings elements across',len(data),'pages.')
         return 0
-    expected=json.loads(BASELINE.read_text(encoding='utf-8'))['pages']
+    baseline=json.loads(args.baseline.read_text(encoding='utf-8'))
+    expected=baseline['pages']
     with socket.socket() as s: s.bind(('127.0.0.1',0)); port=s.getsockname()[1]
-    proc=subprocess.Popen([exe,'serve','--control',str(port)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,creationflags=FLAGS)
+    # The Git page changes a hint when launched inside a checkout.
+    proc=subprocess.Popen([exe,'serve','--control',str(port)],cwd=Path(exe).resolve().parent,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,creationflags=FLAGS)
     try:
         for _ in range(60):
             try:call(exe,port,'state');break
@@ -64,7 +67,7 @@ def main():
         if changed:
             print('Settings changed:', ', '.join(f'{p} ({n})' for p,n in changed))
             return 1
-        print('Settings match the 0.9.12 baseline across all',len(PAGES),'pages.')
+        print('Settings match the',baseline['version'],'baseline across all',len(PAGES),'pages.')
         return 0
     finally:
         try:call(exe,port,'quit')

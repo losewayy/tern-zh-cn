@@ -1,0 +1,102 @@
+/* Tern 0.9.23 settings; loaded only for this page. */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"常规";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"新建区块使用的登录 Shell。留空则使用系统默认 Shell（powershell.exe）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"标签页与分屏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"新标签页与分屏的默认程序";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Ctrl+Shift+T、Ctrl+Shift+Enter 和 Ctrl+Shift+O 新建标签页或分屏时启动的程序。Ctrl+Shift+` 始终打开 Shell 区块，Ctrl+Shift+A 始终打开智能体区块。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"新标签页起始目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"分屏始终在所拆分区块的当前目录启动。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"起始文件夹";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"本机新窗口、会话及无法继承目录的新标签页从这里启动；远程主机的标签页使用远端的起始目录。留空或目录不存在时使用主目录。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"文本选择";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"选中即复制";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"完成文本选择后，自动复制到剪贴板。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"链接";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"打开链接的方式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端输出和程序视图中的链接始终可用 Ctrl 加单击打开。选择“单击”后，拖动仍用于选择文字，Vim、tmux 等接管鼠标的程序仍保留普通单击操作。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"网页链接打开位置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"按住 Alt 单击可使用另一种打开方式；文件链接始终在 Tern 内打开。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t::before{content:"文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"显示隐藏文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在文件面板中显示点号开头的文件，可用 Ctrl+Shift+. 切换。.git 和 .DS_Store 始终隐藏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"显示忽略的文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将 Git 忽略的文件以淡色显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"搜索忽略的文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文件面板的筛选器（Ctrl+Shift+F）也搜索 node_modules 等被忽略的文件夹。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"合并单层文件夹";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"连续只有一个子文件夹时，将它们合并为一行显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"定位当前文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文件面板跟随当前编辑器打开的文件（忽略目录除外）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"单击打开";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"单击文件即可在区块上方预览，点击其他位置后关闭。关闭此项后，需双击文件或按空格键预览。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t::before{content:"保存";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动保存";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"自动保存文件区块，无需按 Ctrl+S。无论是否开启，未保存的文字在退出后仍会保留，也不会覆盖已被其他程序修改的磁盘文件。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t::before{content:"系统";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"资源管理器集成";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在文件夹右键菜单中添加“在 Tern 中打开”，并将 Tern 加入文本、代码、图片、数据库和笔记本的“打开方式”。关闭后移除这些入口。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t::before{content:"更新";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"新版本从 build.stencil.so 获取。点击“重启以更新”可立即安装。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动更新";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"每小时检查并在后台下载新版本，退出时安装。关闭后仅在点击“检查更新”时检查，已下载的版本也仅在点击“重启以更新”时安装。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(9)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>h2:nth-of-type(1).pf-sec-t::before{content:"OMP";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"由 Tern 管理";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 从 build.stencil.so 安装并更新 omp，将其优先加入终端的 PATH，并链接到 Shell 可找到的位置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"由 Tern 管理";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 从 build.stencil.so 安装并更新 ovnfs，将它放在终端 PATH 的前面，并链接到 Shell 可找到的位置。运行中的 ovnfs 服务在执行 ovnfs restart 后使用新版本。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"由 Tern 管理";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 从 build.stencil.so 安装并更新 ABKit，并将其链接到 ~/.o2\\lib\\abkit。这是 omp 浏览器和 Tern 网页视图共用的网页引擎，重新打开浏览器或网页视图后使用新版本。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Additional native settings labels. */
+
+/* Secondary settings captions. */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"命令解释器（Shell）";font-size:12px;display:inline-block;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"命令解释器（Shell）";font-size:13px;display:inline-block;white-space:normal;}

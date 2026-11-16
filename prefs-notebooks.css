@@ -65,3 +65,29 @@ main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"单元格在元数据中记录开始和结束运行的时间，与 JupyterLab 的对应设置一致。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 /* end zh-plus: hints */
+
+/* Additional reviewed settings text. */
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"本机笔记本内核使用的 Python；笔记本单独指定了解释器时优先使用其设置。留空时逐个选择，其他主机上的笔记本由对应主机选择。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"关闭后，内核会在首次运行单元格或请求补全时启动。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"某个单元格执行失败后，停止运行排在它后面的单元格。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"重启内核会丢失所有变量，因此会先询问。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在代码单元格中显示行号；按 L 可切换当前单元格的行号。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"代码单元格中的长行自动换行。Markdown 单元格始终换行。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"输入时显示补全建议，不必等到按 Tab。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"超过此长度的输出在单元格内滚动；按 O 可切换当前单元格的滚动方式。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"matplotlib 图像的显示格式：PNG、适合 Retina 屏幕的高清 PNG，或矢量 SVG。仅对修改后启动的内核生效。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"包含脚本的输出（如 Plotly、Bokeh 和交互组件的 HTML）在网页视图中运行；关闭后以静态内容显示。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"自动保存有更改的笔记本；按 ⌘S 也会保存一个检查点。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"将单元格的开始和结束执行时间保存在其元数据中，与 JupyterLab 的对应设置相同。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

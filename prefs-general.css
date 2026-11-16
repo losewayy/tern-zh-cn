@@ -113,3 +113,7 @@
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(2)::before { content: "延迟保存"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3) { font-size: 0 !important; }
 .pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(1) > .pf-ctl .pf-seg > button:nth-of-type(3)::before { content: "失去焦点时"; font-size: 12px; line-height: 1.45; display: inline-block; white-space: nowrap; vertical-align: baseline; }
+
+/* Additional reviewed settings text. */
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"新版本从 build.stencil.so 获取。点击“重启以更新”可立即安装。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

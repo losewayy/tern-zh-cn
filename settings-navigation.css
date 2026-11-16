@@ -1,0 +1,33 @@
+/* Tern 0.9.23 navigation: names remain stable when categories move. */
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="General"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="General"] > .pf-txt > .lbl::before{content:"常规";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Agents"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Agents"] > .pf-txt > .lbl::before{content:"智能体";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Appearance"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Appearance"] > .pf-txt > .lbl::before{content:"外观";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Terminal"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Terminal"] > .pf-txt > .lbl::before{content:"终端";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Lenses"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Lenses"] > .pf-txt > .lbl::before{content:"原生视图";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Databases"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Databases"] > .pf-txt > .lbl::before{content:"数据库";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Notebooks"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Notebooks"] > .pf-txt > .lbl::before{content:"笔记本";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Carly"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Carly"] > .pf-txt > .lbl::before{content:"Carly";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Keyboard"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Keyboard"] > .pf-txt > .lbl::before{content:"快捷键";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Git"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Git"] > .pf-txt > .lbl::before{content:"Git";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Plugins"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Plugins"] > .pf-txt > .lbl::before{content:"插件";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Sessions"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Sessions"] > .pf-txt > .lbl::before{content:"会话";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Hosts"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Hosts"] > .pf-txt > .lbl::before{content:"主机";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Advanced"] > .pf-txt > .lbl{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .nav-row[aria-label="Advanced"] > .pf-txt > .lbl::before{content:"高级";font-size:13px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .pf-group:nth-of-type(1) > .nav-head{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .pf-group:nth-of-type(1) > .nav-head::before{content:"应用";font-size:12px;display:inline-block;line-height:1.45;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .pf-group:nth-of-type(2) > .nav-head{font-size:0!important;}
+main#panel > .tn-stage > .pf.sheet > .pf-nav .pf-group:nth-of-type(2) > .nav-head::before{content:"系统";font-size:12px;display:inline-block;line-height:1.45;}

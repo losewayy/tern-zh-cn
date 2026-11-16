@@ -27,3 +27,15 @@ main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1) {font-size:0!important;white-space:normal!important;}
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)::before{content:"还没有固定任何密钥。首次连接时 Tern 会显示主机指纹，信任后会记住它。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 /* end zh-plus: extra */
+
+/* Additional reviewed settings text. */
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"允许 tern web serve 将本机会话提供给浏览器；关闭后此命令无法启动，但仍可连接其他主机。Windows 暂不支持手机或其他电脑连接进来。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"先用 tern remote install --allow you 配置主机（在 authorized_keys 中添加你的密钥，并在 access.toml 中添加规则），再通过主机名、IP[:端口] 或 Tailnet 名称经 UDP 8376 连接；也可使用该命令输出的端点 ID 通过中继从任意位置连接，无需开放入站 UDP。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .t::before{content:"添加主机";font-size:13px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+
+/* Static settings actions and choices. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1) {font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)::after{content:"添加远程主机…";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}

@@ -1655,3 +1655,951 @@ main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(50)>div:nth-of-type(1)>div:nth-of-type(2) {font-size:0!important;white-space:normal!important;}
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(50)>div:nth-of-type(1)>div:nth-of-type(2)::before{content:"在 SQLite 区块中。 · sqlite.browse.global_filter";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 /* end zh-plus: hints */
+
+/* Additional reviewed settings text. */
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在任何应用中按下可将 Tern 切到前台；如果 Tern 已在前台，则将其隐藏。 · global_hotkey";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"允许在终端和程序输入框中使用中文、日文、韩文等输入法；关闭后按键直接输入当前键盘布局对应的字符。 · terminal_ime";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在文件区块的代码、文本和 Markdown 编辑器中使用输入法。 · editor_ime";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"使用其他终端的默认快捷键覆盖对应的 Tern 快捷键，其余快捷键保持不变。 · keymap";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"将修饰键与数字一起录入；Ctrl+Shift+0 切换到第十个标签页。 · goto_tab:N";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在浏览器区块中。 · browser.back";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(5) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在浏览器区块中。 · browser.forward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"查找栏打开时。 · find_older";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(6) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"查找栏打开时。 · find_newer";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.select_all_occurrences";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.subword_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.subword_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.delete_subword_backward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.join_lines";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.add_next_occurrence";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.duplicate_block";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.duplicate_lines_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.duplicate_lines_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.shrink_selection";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.expand_selection";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在编辑器和文本输入框中。 · edit.copy";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在编辑器和文本输入框中。 · edit.paste";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在代码、十六进制视图和渲染后的 Markdown 中。 · editor.find_next";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在代码、十六进制视图和渲染后的 Markdown 中。 · editor.find_previous";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.redo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.strikethrough";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.link";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在代码、十六进制视图和渲染后的 Markdown 中。 · editor.use_selection_for_find";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.toggle_wrap";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.next_change";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.previous_change";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.bold";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.move_lines_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.move_block_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.move_lines_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.move_block_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.hard_break";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.leave_inline_block";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.newline_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.extend_blocks_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.extend_blocks_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h::before{content:"在代码、十六进制视图和渲染后的 Markdown 中。 · editor.find_replace";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.indent";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.outdent";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.outdent";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.add_caret_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.add_caret_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.skip_occurrence";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.select_line";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.carets_at_line_ends";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.toggle_comment";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.escape";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.newline_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h::before{content:"在代码、十六进制视图和渲染后的 Markdown 中。 · editor.find";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.go_to_line";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.delete_to_line_end";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.yank";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.select_subword_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.select_subword_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.delete_subword_forward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.fold";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.unfold";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.toggle_fold";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.fold_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h::before{content:"在代码和十六进制视图中。 · editor.unfold_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(8) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h::before{content:"在渲染后的 Markdown 中。 · markdown.italic";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.copy_drop";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.copy_headers";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.copy_hex_ascii";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.focus_filter";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.find_next";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.find_previous";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.zoom_in";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.zoom_out";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.zoom_reset";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.write";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.sheet.cell";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.bold";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.clear_cells";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.browse";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.refresh";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.execute";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.pragmas.save";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.apply";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.select_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.replace";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.sheet.plot";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.log";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.pragmas.reset";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.discard";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.find";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.sheet.schema";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.area.structure";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.area.browse";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.area.execute";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.area.pragmas";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.refresh";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.pragmas.refresh";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.copy_create";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.copy_name";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.copy_sql";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.menu";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.previous_table";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.focus_editor";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.next_table";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.focus_results";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.duplicate_record";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.copy_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.set_null";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.set_null";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.delete_records";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.cut";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.global_filter";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.underline";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.execute_line";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.stop";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.new_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.open_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.close_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.next_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.previous_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.complete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.save_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_1";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_2";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_3";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_4";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_5";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_6";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_7";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_8";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_9";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_1";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_2";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_3";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_4";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_5";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_6";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_7";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_8";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(78) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(78) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.recent_flipped_9";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(79) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(79) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.revert";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(80) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(80) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.read_only";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(81) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(81) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.close";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(82) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(82) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.modify";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(83) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(83) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.row_counts";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(84) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(84) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.unfold_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(85) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(85) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.structure.fold_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(86) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(86) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.new_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(87) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(87) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.rename_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(88) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(88) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.close_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(89) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(89) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.new_record";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(90) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(90) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.insert_values";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(91) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(91) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.edit_cell";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(92) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(92) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.replace_next";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(93) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(93) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.replace_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(94) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(94) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.adjust_rows";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(95) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(95) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.first_page";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(96) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(96) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.previous_page";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(97) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(97) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.next_page";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(98) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(98) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.last_page";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(99) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(99) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.goto_row";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(100) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(100) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.clear_filters";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(101) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(101) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.clear_sorting";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(102) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(102) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.find_column";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(103) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(103) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.show_rowid";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(104) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(104) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.freeze_columns";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(105) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(105) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.hide_columns";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(106) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(106) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.show_all_columns";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(107) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(107) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.select_column";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(108) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(108) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.unlock_view";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(109) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(109) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.display_format";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(110) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(110) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.encoding";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(111) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(111) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.encoding_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(112) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(112) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.copy_column_name";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(113) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(113) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.cond_formats";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(114) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(114) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.format_toolbar";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(115) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(115) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.italic";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(116) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(116) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.align_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(117) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(117) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.align_center";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(118) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(118) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.align_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(119) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(119) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.align_justify";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(120) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(120) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.clear_format";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(121) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(121) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.save_as_view";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(122) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(122) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.export_csv";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(123) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(123) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.browse.export_json";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(124) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(124) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.save_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(125) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(125) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.save_file_as";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(126) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(126) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.rename_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(127) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(127) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.duplicate_tab";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(128) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(128) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.copy_with_headers";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(129) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(129) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.copy_as_sql";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(130) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(130) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.export_csv";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(131) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(131) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.export_json";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(132) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(132) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.save_as_view";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(133) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(133) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.execute.toggle_tiling";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(134) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(134) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.set_null";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(135) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(135) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.import";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(136) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(136) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.import_reference";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(137) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(137) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.export";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(138) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(138) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.export_dump";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(139) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(139) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.open_external";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(140) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(140) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.open_default";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(141) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(141) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.overwrite";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(142) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(142) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.word_wrap";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(143) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(143) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.auto_format";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(144) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(144) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.sort_keys";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(145) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(145) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.auto_switch";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(146) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(146) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.focus";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(147) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(147) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.text";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(148) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(148) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.rtl";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(149) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(149) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.binary";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(150) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(150) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.image";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(151) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(151) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.json";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(152) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(152) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.xml";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(153) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(153) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.svg";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(154) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(154) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.cell.mode.evaluation";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(155) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(155) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.copy";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(156) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(156) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.save";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(157) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(157) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.load_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(158) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(158) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.reset";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(159) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(159) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.legend";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(160) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(160) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.stacked";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(161) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(161) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.fixed";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(162) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(162) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.log_x";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(163) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(163) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.plot.log_y";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(164) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(164) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.create_table";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(165) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(165) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.modify_table";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(166) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(166) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.create_index";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(167) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(167) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.import_csv";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(168) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(168) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.import_csv_clipboard";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(169) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(169) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.import_sql";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(170) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(170) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.export_csv";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(171) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(171) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.export_json";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(172) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(172) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.dialogs.export_sql";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(173) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(173) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.compact";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(174) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(174) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.integrity_check";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(175) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(175) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.quick_check";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(176) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(176) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.foreign_key_check";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(177) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(177) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.optimize";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(178) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(178) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.row_counts";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(179) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(179) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.load_extension";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(180) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(180) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.attach";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(181) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(181) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.detach";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(182) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(182) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.open_project";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(183) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(183) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.save_project";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(184) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(184) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.save_project_as";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(185) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(185) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.close_project";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(186) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(186) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.save_database_as";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(187) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(187) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.drop_select";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(188) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(188) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.drop_insert";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(189) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(189) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.drop_names";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(190) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(190) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.drop_qualified";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(191) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(9) > .pf-rows > .pf-row:nth-of-type(191) > .pf-lbl > .h::before{content:"在 SQLite 区块中。 · sqlite.tools.drop_quoted";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.move_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.move_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.zoom_in";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.zoom_reset";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.save";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.select_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.select_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.scroll_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.copy";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.to_raw";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.insert_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.paste_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.redo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.save_key";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.cut";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.edit";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run_select_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.apply_metadata";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run_insert_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.insert_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.paste_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.twice.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.to_code";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.to_markdown";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.1";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.2";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.3";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.4";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.5";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.heading.6";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.extend_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.extend_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.merge";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.split";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.twice.interrupt";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.twice.restart";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.line_numbers";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.all_line_numbers";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.collapse_output";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.scroll_output";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.scroll_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.select_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.shortcuts";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.zoom_out";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.find_replace";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.complete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.inspect";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.command";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.run_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.duplicate";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.merge_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.merge_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.collapse_input";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.clear_output";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.clear_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.interrupt";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.restart";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.restart_clear";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.restart_run_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.shutdown";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.interpreter";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.save_as";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.rename";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.revert_checkpoint";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.reload";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.export_python";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.export_markdown";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.export_html";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.sheet.contents";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.sheet.properties";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.sheet.variables";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(10) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h::before{content:"在笔记本区块中。 · notebook.sheet.help";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在看板区块中。 · board.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在看板区块中。 · board.redo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在看板区块中。 · board.down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在看板区块中。 · board.up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在看板区块中。 · board.toggle";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在看板区块中。 · board.filter";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_down";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_up";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在看板区块中。 · board.switch_view";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在看板区块中。 · board.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在看板区块中。 · board.edit";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在看板区块中。 · board.details";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在看板区块中。 · board.right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在看板区块中。 · board.new_below";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在看板区块中。 · board.new_above";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在看板区块中。 · board.left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在看板区块中。 · board.clear";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在看板区块中。 · board.first";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在看板区块中。 · board.last";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在看板区块中。 · board.hide_done";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在看板区块中。 · board.new_lane";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在看板区块中。 · board.rename_lane";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_lane_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在看板区块中。 · board.move_lane_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h::before{content:"在看板区块中。 · board.delete_lane";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h::before{content:"在看板区块中。 · board.done_lane";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(11) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h::before{content:"在看板区块中。 · board.open_markdown";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.toggle_lock";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.ungroup";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.group";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.redo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_laser";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_rect";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.bring_forward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.send_backward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_select";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_eraser";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_lasso";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_arrow";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.flip_vertically";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_draw";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_line";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_ellipse";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.select_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_hand";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.zoom_out";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.duplicate";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.copy";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.cut";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.flip_horizontally";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_note";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_highlight";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(27) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_polygon";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(28) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_text";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(29) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.toggle_tool_lock";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(30) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.bring_to_front";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(31) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.send_to_back";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(32) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_left";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(33) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_center";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(34) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_right";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(35) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_top";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(36) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_middle";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(37) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.align_bottom";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(38) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.distribute_horizontally";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(39) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.distribute_vertically";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(40) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.rotate_clockwise";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(41) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.rotate_counterclockwise";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(42) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.zoom_in";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(43) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.zoom_to_fit";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(44) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.zoom_to_selection";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(45) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.zoom_reset";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(46) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.fill_solid";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(47) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.fill_pattern";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(48) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paste";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(49) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paste_in_place";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(50) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.copy_as_png";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(51) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_diamond";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(52) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_triangle";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(53) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_hexagon";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(54) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_parallelogram";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(55) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_star";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(56) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_cylinder";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(57) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_pill";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(58) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_bracket";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(59) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_brace";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(60) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.tool_curve";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(61) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.delete";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(62) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.deselect";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(63) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.unlock_all";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(64) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.copy_style";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(65) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paste_style";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(66) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.stretch_horizontally";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(67) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.stretch_vertically";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(68) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.stack_horizontally";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(69) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.stack_vertically";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(70) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.pack";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(71) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.edit_text";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(72) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.crop";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(73) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.reset_crop";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(74) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.insert_image";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(75) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.look_clean";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(76) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.look_mono";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(77) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.look_sketch";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(78) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(78) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paper_dots";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(79) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(79) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paper_grid";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(80) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(80) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paper_lines";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(81) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(81) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.paper_none";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(82) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(82) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.fill_none";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(83) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(12) > .pf-rows > .pf-row:nth-of-type(83) > .pf-lbl > .h::before{content:"在画布区块中。 · canvas.fill_semi";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.back";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.forward";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.find";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(4) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.new_branch";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(5) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.undo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(6) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.redo";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(7) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.next_commit";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(8) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.previous_commit";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(9) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.peek";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(10) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.toggle_wrap";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(11) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.select_working_tree";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(12) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.commit_message";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(13) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.refresh";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(14) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.filter_refs";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(15) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.next_hunk";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(16) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.previous_hunk";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(17) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.next_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(18) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.previous_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(19) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.cycle_whitespace";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(20) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.toggle_hunk_view";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(21) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.expand_context";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(22) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.toggle_all_context";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(23) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.edit_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(24) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.stage";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(25) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.discard_lines";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(13) > .pf-rows > .pf-row:nth-of-type(26) > .pf-lbl > .h::before{content:"在 Git 区块以及文件面板的“更改”和“引用”标签中。 · git.discard_file";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}

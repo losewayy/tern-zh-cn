@@ -36,10 +36,27 @@ public static class TernAutoBridge {
     private static readonly AutoResetEvent Wake = new AutoResetEvent(false);
     private static readonly UTF8Encoding Utf8 = new UTF8Encoding(false);
     private static readonly Dictionary<string, string> Names = new Dictionary<string, string>(StringComparer.Ordinal);
+    private static readonly HashSet<string> ControlLabels = new HashSet<string>(StringComparer.Ordinal);
+    private static readonly HashSet<string> ControlRows = new HashSet<string>(StringComparer.Ordinal);
+    private static AutomationElement SettingsContent;
+    private static readonly Dictionary<string, string> SettingsHints = new Dictionary<string, string>(StringComparer.Ordinal) {
+        { "General\tNot checked yet", "update-status\t尚未检查更新" },
+        { "General\tomp isn't installed", "omp-status\t尚未安装 omp" },
+        { "General\tovnfs isn't installed", "ovnfs-status\t尚未安装 ovnfs" },
+        { "General\tABKit isn't installed", "abkit-status\t尚未安装 ABKit" },
+        { "General\tAn update is on its way · downloading in a few minutes", "update-status\t更新即将到来，几分钟后开始下载。" },
+        { "Git\tNo repository: focus a git block or a terminal in a checkout to set up its git-flow, LFS and sparse checkout.", "git-empty\t尚未选中仓库。请聚焦 Git 区块，或工作目录位于仓库中的终端，再设置 git-flow、LFS 和稀疏检出。" },
+    };
+    private static readonly Dictionary<string, string> SettingsMenuNames = new Dictionary<string, string>(StringComparer.Ordinal) {
+        { "Remember last location", "记住上次位置" },
+        { "Always use this location", "始终使用指定文件夹" },
+        { "Remember last location for this session", "本次启动期间记住位置" },
+    };
     private static readonly Dictionary<string, string> MenuNames = new Dictionary<string, string>(StringComparer.Ordinal) {
-        { "Paste", "粘贴" }, { "Split right", "向右分屏" }, { "Split down", "向下分屏" },
+        { "Paste", "粘贴" }, { "Select all", "全选" }, { "Split right", "向右分屏" }, { "Split down", "向下分屏" },
         { "Move pane to tab…", "将区块移至标签页…" }, { "Park pane", "暂存区块" },
-        { "Find in scrollback", "查找历史输出" }, { "Open scrollback in editor", "在编辑器打开历史输出" },
+        { "Move pane to window…", "将区块移至窗口…" },
+        { "Find in scrollback", "查找历史输出" }, { "Open scrollback in editor", "在编辑器中打开历史输出" },
         { "Clear screen and scrollback", "清空屏幕及历史输出" }, { "Restart shell", "重启 Shell" },
         { "Close block", "关闭区块" }, { "Picture in picture", "画中画" },
         { "Zoom block", "最大化区块" }, { "Restore pane", "还原区块" },
@@ -116,7 +133,8 @@ public static class TernAutoBridge {
         } catch (IOException) {} catch (UnauthorizedAccessException) {}
     }
 
-    private static string SettingsPage(AutomationElement root) {
+    private static string SettingsPage(AutomationElement root, bool modern) {
+        SettingsContent = null;
         var fields = root.FindAll(TreeScope.Descendants, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Edit));
         foreach (AutomationElement field in fields) {
             try {
@@ -127,6 +145,8 @@ public static class TernAutoBridge {
             } catch (ElementNotAvailableException) {} catch (InvalidOperationException) {}
         }
         var tabs = root.FindAll(TreeScope.Descendants, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.TabItem));
+        string page = "";
+        AutomationElement settings = null;
         foreach (AutomationElement tab in tabs) {
             try {
                 var parent = TreeWalker.ControlViewWalker.GetParent(tab);
@@ -134,10 +154,69 @@ public static class TernAutoBridge {
                 var group = TreeWalker.ControlViewWalker.GetParent(parent);
                 if (group == null || group.Current.Name != "Settings") continue;
                 object selected = tab.GetCurrentPropertyValue(SelectionItemPattern.IsSelectedProperty);
-                if (selected is bool && (bool)selected) return tab.Current.Name;
+                if (selected is bool && (bool)selected) {
+                    if (page != "") return "";
+                    page = tab.Current.Name;
+                    settings = group;
+                }
             } catch (ElementNotAvailableException) {} catch (InvalidOperationException) {}
         }
-        return "";
+        if (modern && page != "") {
+            // The new navigation and content rebuild separately during a page switch.
+            var content = TreeWalker.ControlViewWalker.GetNextSibling(settings);
+            if (content == null || content.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.NameProperty, page)) == null) return "";
+            SettingsContent = content;
+        }
+        return page;
+    }
+
+    private static string SettingsControls(string page) {
+        var result = new StringBuilder(page.ToLowerInvariant()).Append('\n');
+        if (SettingsContent == null || page == "") return result.ToString();
+        foreach (var hint in SettingsHints) {
+            string prefix = page + "\t";
+            if (!hint.Key.StartsWith(prefix, StringComparison.Ordinal)) continue;
+            string source = hint.Key.Substring(prefix.Length);
+            if (SettingsContent.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.NameProperty, source)) != null) result.Append("@hint\t").Append(hint.Value).Append('\n');
+        }
+        var counts = new Dictionary<string, int>(StringComparer.Ordinal);
+        var groups = SettingsContent.FindAll(TreeScope.Descendants, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Group));
+        foreach (AutomationElement group in groups) {
+            var texts = group.FindAll(TreeScope.Children, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Text));
+            if (texts.Count < 2) continue;
+            var label = texts[0];
+            string name = label.Current.Name;
+            if (page == "Agents" && name == "Command line tool") {
+                string help = texts[1].Current.Name;
+                if (help.StartsWith("Found at ", StringComparison.Ordinal)) {
+                    string location = help.Substring(9);
+                    string file = Path.GetFileName(location.Split(new[] { " · " }, StringSplitOptions.None)[0]);
+                    int section = file == "claude" || file == "claude.exe" ? 4 : file == "codex" || file == "codex.exe" ? 5 : file == "copilot" || file == "copilot.exe" ? 6 : 0;
+                    if (section != 0) result.Append("@hint\tagent-").Append(section).Append('\t').Append("已找到：").Append(location.Replace(" · adapter installs on first use", "，首次使用时会自动安装适配器。")).Append('\n');
+                }
+            }
+            if (page == "Git" && name == "Try it" && texts[1].Current.Name == "Focus a git block or a terminal in a checkout on this machine to try it.") {
+                result.Append("@hint\tgit-try\t请聚焦本机 Git 区块，或工作目录位于仓库中的终端，再试用此设置。\n");
+            }
+            if (!ControlRows.Contains(page.ToLowerInvariant() + "\t" + name)) continue;
+            int occurrence;
+            counts.TryGetValue(name, out occurrence);
+            counts[name] = ++occurrence;
+            if (name == "Managed by Tern") {
+                string help = texts[1].Current.Name;
+                occurrence = help.Contains("ovnfs") ? 2 : help.Contains("ABKit") ? 3 : 1;
+            }
+            result.Append(name).Append('\t').Append(occurrence);
+            var buttons = group.FindAll(TreeScope.Descendants, new OrCondition(
+                new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Button),
+                new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.RadioButton)));
+            foreach (AutomationElement button in buttons) {
+                string caption = button.Current.Name;
+                result.Append('\t').Append(ControlLabels.Contains(caption) ? caption : "");
+            }
+            result.Append('\n');
+        }
+        return result.ToString();
     }
 
     private static bool InsidePalette(AutomationElement element) {
@@ -207,6 +286,7 @@ public static class TernAutoBridge {
     }
 
     private static string MenuStyles(AutomationElement root) {
+        var translations = SettingsContent == null ? MenuNames : SettingsMenuNames;
         var menus = root.FindAll(TreeScope.Descendants, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Menu));
         foreach (AutomationElement menu in menus) {
             var entries = new List<string>();
@@ -214,19 +294,21 @@ public static class TernAutoBridge {
                 if (child.Current.ControlType != ControlType.MenuItem) continue;
                 string visible = child.Current.Name;
                 string match = null;
-                foreach (string english in MenuNames.Keys) {
+                foreach (string english in translations.Keys) {
                     if ((visible == english || visible.StartsWith(english + " ", StringComparison.Ordinal)) && (match == null || english.Length > match.Length)) match = english;
                 }
                 if (match == null) return "";
                 entries.Add(match);
             }
-            if (entries.Count != 10 && entries.Count != 12) continue;
-            if (entries[0] != "Paste" || entries[1] != "Split right" || entries[2] != "Split down" || entries[entries.Count - 1] != "Close block") continue;
+            if (SettingsContent == null) {
+                if (entries.Count < 10 || entries[0] != "Paste" || entries[entries.Count - 1] != "Close block") continue;
+                if (!entries.Contains("Split right") || !entries.Contains("Split down") || !entries.Contains("Find in scrollback") || !entries.Contains("Restart shell")) continue;
+            }
             var css = new StringBuilder();
             for (int i = 0; i < entries.Count; i++) {
                 string selector = "body > div.pop > button.mi:nth-of-type(" + (i + 1) + "):nth-last-of-type(" + (entries.Count - i) + ")";
                 css.Append(selector).Append("{font-size:0!important;}\n");
-                css.Append(selector).Append("::before{content:\"").Append(Escape(MenuNames[entries[i]])).Append("\";font-size:13px;display:inline-block;order:1;}\n");
+                css.Append(selector).Append("::before{content:\"").Append(Escape(translations[entries[i]])).Append("\";font-size:13px;display:inline-block;order:1;}\n");
                 css.Append(selector).Append(" > .ico{order:0;}\n");
                 css.Append(selector).Append(" > .sub{font-size:11px!important;order:2;margin-left:auto;}\n");
             }
@@ -240,6 +322,14 @@ public static class TernAutoBridge {
         foreach (string line in File.ReadAllLines(Path.Combine(pluginDir, "ui-labels.tsv"), Encoding.UTF8)) {
             int split = line.IndexOf('\t');
             if (split > 0 && split < line.Length - 1) Names[line.Substring(0, split)] = line.Substring(split + 1);
+        }
+        foreach (string line in File.ReadAllLines(Path.Combine(pluginDir, "settings-labels.tsv"), Encoding.UTF8)) {
+            int split = line.IndexOf('\t');
+            if (split > 0) ControlLabels.Add(line.Substring(0, split));
+        }
+        foreach (string line in File.ReadAllLines(Path.Combine(pluginDir, "settings-controls.tsv"), Encoding.UTF8)) {
+            string[] fields = line.Split('\t');
+            if (fields.Length == 8 && fields[7] == "live") ControlRows.Add(fields[0] + "\t" + fields[1]);
         }
         using (var parent = Process.GetProcessById(parentId)) {
             if (parent.StartTime.ToUniversalTime().Ticks != parentStart) throw new InvalidOperationException("Tern window process changed");
@@ -265,16 +355,19 @@ public static class TernAutoBridge {
                     AutomationEventHandler selection = (sender, args) => Wake.Set();
                     StructureChangedEventHandler structure = (sender, args) => Wake.Set();
                     AutomationPropertyChangedEventHandler value = (sender, args) => Wake.Set();
-                    string lastPage = null, lastPalette = null, lastMenu = null;
+                    string lastPage = null, lastPalette = null, lastMenu = null, lastControls = null;
                     try {
                         Automation.AddAutomationEventHandler(SelectionItemPattern.ElementSelectedEvent, root, TreeScope.Descendants, selection);
                         Automation.AddStructureChangedEventHandler(root, TreeScope.Subtree, structure);
                         Automation.AddAutomationPropertyChangedEventHandler(root, TreeScope.Descendants, value, ValuePattern.ValueProperty);
-                        Publish(channel + ".version", Version(parent));
+                        string version = Version(parent);
+                        Publish(channel + ".version", version);
                         while (!parent.HasExited && IsWindow(hwnd)) {
                             try {
-                                string page = SettingsPage(root);
+                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)");
                                 if (page != lastPage) { Publish(channel + ".page", page); lastPage = page; }
+                                string controls = SettingsControls(page);
+                                if (controls != lastControls) { Publish(channel + ".controls", controls); lastControls = controls; }
                                 string palette = PaletteStyles(root);
                                 if (palette != lastPalette) { Publish(channel + ".palette", palette); lastPalette = palette; }
                                 string menu = MenuStyles(root);
@@ -286,7 +379,7 @@ public static class TernAutoBridge {
                         try { Automation.RemoveAutomationEventHandler(SelectionItemPattern.ElementSelectedEvent, root, selection); } catch (Exception) {}
                         try { Automation.RemoveStructureChangedEventHandler(root, structure); } catch (Exception) {}
                         try { Automation.RemoveAutomationPropertyChangedEventHandler(root, value); } catch (Exception) {}
-                        foreach (string suffix in new[] { ".page", ".palette", ".menu", ".version" }) {
+                        foreach (string suffix in new[] { ".page", ".palette", ".menu", ".controls", ".version" }) {
                             try { File.Delete(channel + suffix); File.Delete(channel + suffix + ".tmp"); } catch (IOException) {}
                         }
                     }

@@ -41,3 +41,29 @@ main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1) {font-size:0!important;white-space:normal!important;}
 main:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)::before{content:"套接字";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
 /* end zh-plus: extra */
+
+/* Additional reviewed settings text. */
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"登录系统时在后台启动会话程序并恢复保留的会话；崩溃或断电时被打断的智能体可以从中断处继续。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(1) > .pf-rows > .pf-row:nth-of-type(3) > .pf-lbl > .h::before{content:"Tern 窗口和区块内的 tern whoami 连接会话程序所使用的地址。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(2) > .pf-rows > .pf-row:nth-of-type(2) > .pf-lbl > .h::before{content:"适用于侧边标签列表和 Mission Control。选择“停留”时需双击才切换会话；会话切换器（Ctrl+Shift+Space）和收件箱始终会切换。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(3) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"在后台重新连接上次窗口使用过的远程主机。本机会话始终会恢复，因为它们由会话程序保留。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h {font-size:0!important;white-space:normal!important;}
+.pf-doc > section.pf-sec:nth-of-type(4) > .pf-rows > .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"关闭区块、标签页或会话会结束其中的程序。选择“运行中的程序”时，仅有命令、执行中的智能体或编辑器等忙碌程序才会提示；空闲的 Shell 和智能体会立即关闭。锁定的会话始终拒绝关闭。";font-size:12px;line-height:1.45;display:inline-block;white-space:normal;vertical-align:baseline;}
+
+/* Static settings actions and choices. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1) {font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)::after{content:"切换会话…";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1) {font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)::after{content:"切换";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2) {font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)::after{content:"停留";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1) {font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)::after{content:"从不";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2) {font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)::after{content:"程序忙碌时";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3) {font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)::after{content:"始终";font-size:12px;line-height:1.45;display:inline-block;white-space:nowrap;}

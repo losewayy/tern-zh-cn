@@ -12,6 +12,8 @@ local running = true
 local lastPage = nil
 local lastPalette = nil
 local lastMenu = nil
+local lastControls = nil
+local controlStyles = require("./settings-controls")
 local informed = false
 local hadVersion = false
 local missingVersion = 0
@@ -19,6 +21,8 @@ local waitingForWindow = 0
 local identifying = true
 local cache = {}
 local scope = "main#panel > .tn-stage > .pf.sheet > .pf-scroll > "
+local modernLoaded = false
+local modernPages = { "General", "Agents", "Appearance", "Terminal", "Lenses", "Databases", "Notebooks", "Carly", "Keyboard", "Git", "Plugins", "Sessions", "Hosts", "Advanced" }
 
 -- Invisible characters let the helper identify this window without moving or focusing it.
 local marker = utf8.char(0x2063)
@@ -53,22 +57,35 @@ local function pageStyles(page, version)
     local key = version .. ":" .. name
     if cache[key] then return cache[key] end
     local directory = tern.plugin.dir
+    if version == "tern 0.9.23 (35c63ab)" then
+        directory ..= "/compat/0.9.23"
+    end
     if version == "tern 0.9.9 (9c1c09f)" and (name == "general" or name == "keyboard" or name == "advanced") then
         directory ..= "/compat/0.9.9"
     end
     local source = readSmall(directory .. "/prefs-" .. name .. ".css", 1024 * 1024)
     if not source then return "" end
     local lines = {}
+    local pageScope = version == "tern 0.9.23 (35c63ab)" and controlStyles.scope(name) or scope
     for line in (source .. "\n"):gmatch("([^\n]*)\n") do
         if not line:match("^%s*main:nth%-of%-type%(%s*1%s*%)>div:nth%-of%-type%(%s*1%s*%)>div:nth%-of%-type%(%s*7%s*%)") then
-            line = line:gsub("^(%s*)%.pf%-doc", "%1" .. scope .. ".pf-doc")
-            line = line:gsub("^(%s*)div%.pf%-doc", "%1" .. scope .. "div.pf-doc")
+            line = line:gsub("^(%s*)%.pf%-doc", "%1" .. pageScope .. ".pf-doc")
+            line = line:gsub("^(%s*)div%.pf%-doc", "%1" .. pageScope .. "div.pf-doc")
             table.insert(lines, line)
         end
     end
     local result = table.concat(lines, "\n")
+    if version == "tern 0.9.23 (35c63ab)" then result ..= "\n" .. controlStyles.fixed(name) end
     cache[key] = result
     return result
+end
+
+local function installModernPage(index)
+    local page = modernPages[index]
+    tern.css("prefs-" .. pageFiles[page], pageStyles(page, "tern 0.9.23 (35c63ab)"))
+    if index < #modernPages then
+        tern.timer(0, function() installModernPage(index + 1) end)
+    end
 end
 
 local function poll(cx)
@@ -100,20 +117,32 @@ local function poll(cx)
             tern.css("settings", "")
             tern.css("palette", "")
             tern.css("menu", "")
+            tern.css("controls", "")
             cx:toast("error", "Tern 汉化小程序已退出", "重新加载插件或重新打开 Tern 可重试。")
             return
         end
     end
     if version and page then
-        local supported = version == "tern 0.9.12 (e498b49)" or version == "tern 0.9.9 (9c1c09f)"
-        local key = supported and (version .. ":" .. page) or ""
+        local supported = version == "tern 0.9.23 (35c63ab)" or version == "tern 0.9.12 (e498b49)" or version == "tern 0.9.9 (9c1c09f)"
+        local modern = version == "tern 0.9.23 (35c63ab)"
+        if modern and not modernLoaded then
+            modernLoaded = true
+            installModernPage(1)
+        end
+        local key = supported and not modern and (version .. ":" .. page) or ""
         if key ~= lastPage then
-            tern.css("settings", supported and pageStyles(page, version) or "")
+            tern.css("settings", supported and not modern and pageStyles(page, version) or "")
             lastPage = key
         end
         if not supported and not informed then
             informed = true
             cx:toast("info", "Tern 版本未通过设置页汉化校验", "为避免错译，设置页暂时保留英文。")
+        end
+        local snapshot = readSmall(channel .. ".controls", 512 * 1024)
+        local controls = modern and controlStyles.live(pageFiles[page] or "", snapshot, cx) or ""
+        if controls ~= lastControls then
+            tern.css("controls", controls)
+            lastControls = controls
         end
     end
     local palette = readSmall(channel .. ".palette", 1024 * 1024)
@@ -148,6 +177,7 @@ tern.timer(100, function(cx)
             tern.css("settings", "")
             tern.css("palette", "")
             tern.css("menu", "")
+            tern.css("controls", "")
             tern.log.warn("Chinese helper could not start", result.status, result.stderr)
             callbackCx:toast("error", "Tern 汉化小程序未能启动", "请检查插件安装和 Windows 环境。")
         end

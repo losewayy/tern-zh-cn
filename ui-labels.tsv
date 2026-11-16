@@ -11,12 +11,12 @@ Lock session	锁定会话
 Close session	关闭会话
 Move session up	上移会话
 Move session down	下移会话
-Collapse all sessions	折叠全部会话
-Expand all sessions	展开全部会话
+Collapse all sessions	折叠所有会话
+Expand all sessions	展开所有会话
 Switch host…	切换主机
 Add remote host…	添加远程主机
 Connect from mobile…	通过手机连接
-New session on host…	在远程主机上新建会话
+New session on host…	在主机上新建会话…
 Disconnect from host…	断开主机连接
 Next tab	下一个标签页
 Show tab by number	按编号切换标签页
@@ -25,35 +25,35 @@ Next tab across sessions	跨会话下一个标签页
 Previous tab across sessions	跨会话上一个标签页
 Move tab right	右移标签页
 Move tab left	左移标签页
-Peek at tabs	Peek at 标签页
+Peek at tabs	预览标签页
 Mission Control	窗口总览
 Rename tab…	重命名标签页
 Close tab	关闭标签页
-Tidy tab title	整理标签页标题
+Tidy tab title	精简标签页标题
 Focus tab list	聚焦标签页列表
 Toggle tab orientation	切换标签页方向
 Horizontal tabs	横向标签页
 Vertical tabs	纵向标签页
 Show/hide sidebar	显示／隐藏侧边栏
-New Carly block	新建Carly 区块
+New Carly block	新建 Carly 区块
 New shell block	新建 Shell 区块
 New agent block	新建智能体区块
 New browser block…	新建浏览器区块
 Open URL in split	在分屏中打开网址
-New task-manager block	新建task-manager 区块
+New task-manager block	新建任务管理器区块
 Profile process	分析进程性能
 New git block	新建 Git 区块
 New database…	新建数据库
 Open database…	打开数据库
 Open database read-only…	只读打开数据库
-Open recent database	打开recent 数据库
+Open recent database	打开最近使用的数据库
 New board block	新建看板区块
 Open board…	打开看板
 Open as board	作为看板打开
-New canvas block	新建canvas 区块
-Open canvas file…	打开canvas 文件
+New canvas block	新建画布区块
+Open canvas file…	打开画布文件…
 Focus address field	聚焦地址栏
-Inspect page	Inspect 页面
+Inspect page	检查网页
 Split right	向右分屏
 Browser back	浏览器后退
 Browser forward	浏览器前进
@@ -72,12 +72,12 @@ Focus the block up	聚焦上方区块
 Focus the block down	聚焦下方区块
 Restart shell	重启 Shell
 Close block	关闭区块
-Move pane left	移动区块向左
-Move pane right	移动区块向右
-Move pane up	移动区块向上
-Move pane down	移动区块向下
-Move pane to tab…	将区块移至标签页
-Move pane to session…	将区块移至会话
+Move pane left	向左移动区块
+Move pane right	向右移动区块
+Move pane up	向上移动区块
+Move pane down	向下移动区块
+Move pane to tab…	将区块移至标签页…
+Move pane to session…	将区块移至会话…
 Find in scrollback	查找历史输出
 Copy	复制
 Older find match	上一处匹配
@@ -104,14 +104,14 @@ Carly: New conversation	Carly：新建对话
 Carly: Scheduled tasks	Carly：计划任务
 Update remote host…	更新远程主机
 Bring back from cloud	从云端恢复
-New browser picture in picture	新建browser 画中画
+New browser picture in picture	新建浏览器画中画
 Open URL in picture in picture	在画中画中打开网址
-New screen block	新建screen 区块
+New screen block	新建屏幕共享区块
 Stop controlling the screen	停止控制屏幕
 New notebook	新建笔记本
 Open notebook…	打开笔记本
 Park pane	暂存区块
-Parked panes	Parked 区块
+Parked panes	查看暂存区块
 Increase font size	增大字号
 Decrease font size	减小字号
 Reset font size	恢复字号
@@ -140,11 +140,11 @@ Prompt: next colors	提示符：切换颜色
 Prompt: next fill	提示符：切换填充
 Prompt: next shape	提示符：切换形状
 Prompt: next frame	提示符：切换边框
-Prompt: frame line end on or off	提示符：切换边框末端
+Prompt: frame line end on or off	提示符：显示或隐藏边框末端
 Prompt: next gap	提示符：切换间距
 Prompt: next prompt character	提示符：切换提示字符
 Prompt: next separators	提示符：切换分隔符
-Prompt: next git format	提示符：切换 Git 格式
+Prompt: next git format	提示符：切换 Git 显示格式
 Prompt: next directory format	提示符：切换目录格式
 Prompt: icons on or off	提示符：显示或隐藏图标
 Prompt: next clock	提示符：切换时钟
@@ -152,9 +152,9 @@ Prompt segments…	配置提示符片段
 Collapse past prompts	折叠之前的提示符
 Next layout	切换到下一个布局
 Layout: Rail	布局：侧栏
-Layout: Float	布局：浮动
+Layout: Float	布局：悬浮
 Layout: Tiles	布局：平铺
-Layout: Studio	布局：工作台
+Layout: Studio	布局：工作室
 Settings…	设置
 Toggle Secure Keyboard Entry	切换安全键盘输入
 Desktop pet (Clawdi)	桌面宠物 Clawdi
@@ -162,7 +162,7 @@ Open settings.json	打开 settings.json
 Reload settings	重新加载设置
 Reload plugins	重新加载插件
 Open logs and app state	打开日志与应用状态
-Open app data folder	打开应用数据目录
+Open app data folder	打开应用数据文件夹
 Quit Tern	退出 Tern
 Restart Tern	重启 Tern
 Show needs-attention inbox	显示待处理消息
@@ -170,19 +170,19 @@ Clear needs-attention inbox	清空待处理消息
 Show/hide files	显示／隐藏文件面板
 Focus Files	聚焦文件面板
 Files: Reveal active file	文件：定位当前文件
-Files: Reveal directory	文件：定位目录
-Files: Pin folder / Follow block	文件：固定目录或跟随区块
+Files: Reveal directory	文件：定位当前目录
+Files: Pin folder / Follow block	文件：固定文件夹或跟随区块
 Files: Open folder…	文件：打开文件夹
-Files: Filter…	文件：筛选器
+Files: Filter…	文件：筛选…
 Files: Collapse all	文件：全部折叠
 Files: Show/hide hidden files	文件：显示或隐藏隐藏文件
 Picture in picture	画中画
-Picture in picture over…	在窗口上显示画中画
+Picture in picture over…	在指定区块上显示画中画…
 Hide pictures in picture	隐藏所有画中画
-Dock picture in picture left	画中画停靠左侧
-Dock picture in picture right	画中画停靠右侧
-Dock picture in picture up	画中画停靠上方
-Dock picture in picture down	画中画停靠下方
+Dock picture in picture left	将画中画停靠到左侧
+Dock picture in picture right	将画中画停靠到右侧
+Dock picture in picture up	将画中画停靠到上方
+Dock picture in picture down	将画中画停靠到下方
 Move picture in picture to top left	将画中画移至左上角
 Move picture in picture to top right	将画中画移至右上角
 Move picture in picture to bottom left	将画中画移至左下角
@@ -190,8 +190,8 @@ Move picture in picture to bottom right	将画中画移至右下角
 Pane headers: Never	区块标题栏：从不显示
 Pane headers: When split	区块标题栏：分屏时显示
 Pane headers: Always	区块标题栏：始终显示
-Show status line	显示status 行
-Change interface style…	切换界面样式
+Show status line	显示状态栏
+Change interface style…	更改界面样式…
 Screenshot	截图
 Debug: Show FPS	调试：显示帧率
 Toggle developer tools	切换开发者工具
@@ -212,49 +212,49 @@ Previous change	上一处更改
 Fold all	全部折叠
 Unfold all	全部展开
 Reopen with encoding…	使用指定编码重新打开
-Convert line endings…	转换换行符
-Browse folder…	Browse 文件夹
-Reveal file in Finder	在 Finder 中显示文件
-Open file in default app	使用默认应用打开文件
+Convert line endings…	转换换行符…
+Browse folder…	浏览文件夹…
+Reveal file in Finder	在文件管理器中显示文件
+Open file in default app	用默认应用打开文件
 Copy file path	复制文件路径
 Sign out of Stencil	退出 Stencil 登录
 Check for updates	检查更新
 What's new: release notes	更新内容：版本说明
 Help & documentation	帮助与文档
 Restart to update	重启以安装更新
-Restart session daemon	Restart 会话 daemon
+Restart session daemon	重启会话服务
 Install omp	安装 omp
 Check for omp updates	检查 omp 更新
-Stop managing omp	停止托管 omp
+Stop managing omp	停止管理 omp
 Select all occurrences	选择全部匹配项
 Subword left	向左跳转子词
 Subword right	向右跳转子词
 Delete subword backward	向后删除子词
-Join lines	Join 行
+Join lines	合并行
 Add next occurrence	添加下一处匹配
 Duplicate block	复制区块
-Duplicate lines up	复制行向上
-Duplicate lines down	复制行向下
-Shrink selection	Shrink 选区
-Expand selection	扩展选区
+Duplicate lines up	向上复制行
+Duplicate lines down	向下复制行
+Shrink selection	缩小选区
+Expand selection	扩大选区
 Find next	查找下一个
 Find previous	查找上一个
 Redo	重做
 Strikethrough	删除线
 Link	链接
-Use selection for find	Use 选区 for find
+Use selection for find	用选中文字查找
 Toggle wrap	切换自动换行
 Bold	加粗
 Undo	撤销
-Move lines down	移动行向下
-Move block down	移动区块向下
-Move lines up	移动行向上
-Move block up	移动区块向上
+Move lines down	下移选中行
+Move block down	下移区块
+Move lines up	上移选中行
+Move block up	上移区块
 Hard break	强制换行
-Leave inline block	Leave inline 区块
+Leave inline block	离开行内区块
 Newline below	在下方插入新行
-Extend blocks up	Extend 区块向上
-Extend blocks down	Extend 区块向下
+Extend blocks up	向上扩展区块选区
+Extend blocks down	向下扩展区块选区
 Find replace	查找替换
 Indent	增加缩进
 Outdent	减少缩进
@@ -262,7 +262,7 @@ Add caret above	上方添加光标
 Add caret below	下方添加光标
 Skip occurrence	跳过当前匹配
 Select line	选择行
-Carets at line ends	Carets at 行 ends
+Carets at line ends	在各行末尾添加光标
 Toggle comment	切换注释
 Escape	退出当前操作
 Newline above	在上方插入新行
@@ -277,31 +277,31 @@ Fold	折叠
 Unfold	展开
 Toggle fold	切换折叠
 Italic	斜体
-Copy for the SQL editor	复制到 SQL 编辑器
+Copy for the SQL editor	复制为 SQL 编辑器可用的内容
 Copy with headers	复制并包含表头
-Edit cell: Copy Hex and ASCII	编辑单元格：复制十六进制及 ASCII
-Filter this column	筛选器 this 列
+Edit cell: Copy Hex and ASCII	编辑单元格：复制十六进制和 ASCII
+Filter this column	筛选当前列
 Zoom SQL editor in	放大 SQL 编辑器
-Zoom SQL editor out	Zoom SQL 编辑器 out
-Reset SQL editor zoom	重置SQL 编辑器 zoom
+Zoom SQL editor out	缩小 SQL 编辑器
+Reset SQL editor zoom	重置 SQL 编辑器缩放
 Write changes	写入更改
-Edit cell sheet	编辑单元格 sheet
-Undo last change	Undo last 更改
-Delete selected object	删除选中 对象
-Delete records or empty cells	删除记录 or empty 单元格
-Empty cells	Empty 单元格
-Browse selected table	Browse 选中 表
+Edit cell sheet	打开单元格编辑面板
+Undo last change	撤销上次更改
+Delete selected object	删除选中对象
+Delete records or empty cells	删除记录或清空单元格
+Empty cells	清空单元格
+Browse selected table	浏览选中的表
 Refresh structure	刷新结构
 Execute all/selected SQL	执行全部／选中 SQL
 Save pragmas	保存 PRAGMA
-Edit cell: Apply	编辑单元格：应用修改
+Edit cell: Apply	编辑单元格：应用更改
 Select all	全选
 Find and replace	查找并替换
-Plot sheet	图表工作表
+Plot sheet	图表面板
 SQL log	SQL 日志
 Reset pragma edits	重置 PRAGMA 修改
-Edit cell: Discard edits	编辑单元格：放弃修改
-Schema sheet	结构定义 sheet
+Edit cell: Discard edits	编辑单元格：放弃更改
+Schema sheet	结构定义面板
 Show database structure	显示数据库结构
 Browse data	浏览数据
 Execute SQL	执行 SQL
@@ -311,53 +311,53 @@ Reload pragmas	重新加载 PRAGMA
 Copy create statement	复制 CREATE 语句
 Copy name	复制名称
 Copy as SQL	复制为 SQL
-Selected object's menu	选中 对象's menu
+Selected object's menu	选中对象的菜单
 Previous table	上一张表
-Focus SQL editor	聚焦SQL 编辑器
+Focus SQL editor	聚焦 SQL 编辑器
 Next table	下一张表
-Focus SQL results	聚焦SQL 结果
+Focus SQL results	聚焦 SQL 结果
 Duplicate records	复制记录
-Copy cell above	复制单元格 above
+Copy cell above	复制上方单元格
 Delete records	删除记录
 Cut	剪切
-Filter in any column	在任意列中筛选
+Filter in any column	在所有列中筛选
 Underline	下划线
-Execute current line	Execute current 行
+Execute current line	执行当前行
 Stop SQL execution	停止执行 SQL
-New SQL tab	新建SQL 标签页
-Open SQL file	打开SQL 文件
-Close SQL tab	关闭SQL 标签页
+New SQL tab	新建 SQL 标签页
+Open SQL file	打开 SQL 文件
+Close SQL tab	关闭 SQL 标签页
 Next SQL tab	下一个 SQL 标签页
 Previous SQL tab	上一个 SQL 标签页
 Complete SQL	补全 SQL
 Save all	保存全部
-Open recent database 1	打开recent 数据库 1
-Open recent database 2	打开recent 数据库 2
-Open recent database 3	打开recent 数据库 3
-Open recent database 4	打开recent 数据库 4
-Open recent database 5	打开recent 数据库 5
-Open recent database 6	打开recent 数据库 6
-Open recent database 7	打开recent 数据库 7
-Open recent database 8	打开recent 数据库 8
-Open recent database 9	打开recent 数据库 9
-Open recent database 1, read-only inverted	打开recent 数据库 1, read-only inverted
-Open recent database 2, read-only inverted	打开recent 数据库 2, read-only inverted
-Open recent database 3, read-only inverted	打开recent 数据库 3, read-only inverted
-Open recent database 4, read-only inverted	打开recent 数据库 4, read-only inverted
-Open recent database 5, read-only inverted	打开recent 数据库 5, read-only inverted
-Open recent database 6, read-only inverted	打开recent 数据库 6, read-only inverted
-Open recent database 7, read-only inverted	打开recent 数据库 7, read-only inverted
-Open recent database 8, read-only inverted	打开recent 数据库 8, read-only inverted
-Open recent database 9, read-only inverted	打开recent 数据库 9, read-only inverted
-Revert changes	Revert 更改
+Open recent database 1	打开最近使用的第 1 个数据库
+Open recent database 2	打开最近使用的第 2 个数据库
+Open recent database 3	打开最近使用的第 3 个数据库
+Open recent database 4	打开最近使用的第 4 个数据库
+Open recent database 5	打开最近使用的第 5 个数据库
+Open recent database 6	打开最近使用的第 6 个数据库
+Open recent database 7	打开最近使用的第 7 个数据库
+Open recent database 8	打开最近使用的第 8 个数据库
+Open recent database 9	打开最近使用的第 9 个数据库
+Open recent database 1, read-only inverted	打开最近使用的第 1 个数据库（反转只读状态）
+Open recent database 2, read-only inverted	打开最近使用的第 2 个数据库（反转只读状态）
+Open recent database 3, read-only inverted	打开最近使用的第 3 个数据库（反转只读状态）
+Open recent database 4, read-only inverted	打开最近使用的第 4 个数据库（反转只读状态）
+Open recent database 5, read-only inverted	打开最近使用的第 5 个数据库（反转只读状态）
+Open recent database 6, read-only inverted	打开最近使用的第 6 个数据库（反转只读状态）
+Open recent database 7, read-only inverted	打开最近使用的第 7 个数据库（反转只读状态）
+Open recent database 8, read-only inverted	打开最近使用的第 8 个数据库（反转只读状态）
+Open recent database 9, read-only inverted	打开最近使用的第 9 个数据库（反转只读状态）
+Revert changes	撤销更改
 Reopen read-only / writable	以只读或可写模式重新打开
 Close database	关闭数据库
-Modify selected object	Modify 选中 对象
+Modify selected object	修改选中对象
 Show row counts in the structure	在结构树中显示行数
 Unfold all objects	展开全部对象
 Fold all objects	折叠全部对象
 New data browser	新建数据浏览器
-Rename data browser	Rename 数据浏览器
+Rename data browser	重命名数据浏览器
 Close data browser	关闭数据浏览器
 New record	新建记录
 Insert values	插入值
@@ -365,57 +365,57 @@ Edit cell	编辑单元格
 Replace	替换
 Replace all	全部替换
 Adjust rows to contents	根据内容调整行高
-First page	First 页面
+First page	首页
 Previous page	上一页
 Next page	下一页
-Last page	Last 页面
+Last page	末页
 Go to row	跳转到行
 Clear filters	清空筛选器
 Clear sorting	清除排序
 Find column	查找列
-Show rowid column	显示rowid 列
+Show rowid column	显示 rowid 列
 Freeze columns up to this one	冻结至当前列
 Hide columns	隐藏列
 Select column	选择列
-Unlock view editing	Unlock 视图 editing
-Edit display format	编辑display 格式
+Unlock view editing	允许编辑视图
+Edit display format	编辑显示格式
 Set encoding	设置编码
 Set encoding for all tables	为所有表设置编码
-Copy column name	复制列 名称
-Edit conditional formats	编辑conditional 格式
-Format toolbar	格式 toolbar
+Copy column name	复制列名
+Edit conditional formats	编辑条件格式
+Format toolbar	格式工具栏
 Align left	左对齐
 Align center	居中对齐
 Align right	右对齐
 Justify	两端对齐
 Clear format	清空格式
-Save current filter as view	保存current 筛选器 as 视图
+Save current filter as view	将当前筛选保存为视图
 Export filtered data as CSV	将筛选结果导出为 CSV
 Export filtered data as JSON	将筛选结果导出为 JSON
-Save SQL file	保存SQL 文件
-Save SQL file as	保存SQL 文件 as
-Rename SQL tab	Rename SQL 标签页
-Duplicate SQL tab	复制SQL 标签页
+Save SQL file	保存 SQL 文件
+Save SQL file as	SQL 文件另存为
+Rename SQL tab	重命名 SQL 标签页
+Duplicate SQL tab	复制 SQL 标签页
 Copy results with headers	复制结果及列标题
-Copy results as SQL	复制结果 as SQL
+Copy results as SQL	将结果复制为 SQL
 Export results to CSV	将结果导出为 CSV
 Export results to JSON	将结果导出为 JSON
-Save results as view	保存结果 as 视图
+Save results as view	将结果保存为视图
 Results beside the editor	在编辑器旁显示结果
 Edit cell: Set as NULL	编辑单元格：设为 NULL
-Edit cell: Save file reference	Edit 单元格：保存文件 reference
+Edit cell: Save file reference	编辑单元格：保存文件引用
 Edit cell: Export hex dump	编辑单元格：导出十六进制数据
 Edit cell: Open in external application	编辑单元格：使用外部应用打开
 Edit cell: Open in default application or browser	编辑单元格：使用默认应用或浏览器打开
 Edit cell: Overwrite mode	编辑单元格：覆盖模式
 Edit cell: Word wrap	编辑单元格：自动换行
-Edit cell: Auto-format	Edit 单元格：Auto-格式
+Edit cell: Auto-format	编辑单元格：自动格式化
 Edit cell: Sort keys	编辑单元格：排序键
 Edit cell: Auto-switch mode	编辑单元格：自动切换模式
-Edit cell: Text mode	Edit 单元格：文本 mode
-Edit cell: RTL Text mode	Edit 单元格：RTL 文本 mode
+Edit cell: Text mode	编辑单元格：文本模式
+Edit cell: RTL Text mode	编辑单元格：从右向左的文本模式
 Edit cell: Binary mode	编辑单元格：二进制模式
-Edit cell: Image mode	Edit 单元格：图像 mode
+Edit cell: Image mode	编辑单元格：图片模式
 Edit cell: JSON mode	编辑单元格：JSON 模式
 Edit cell: XML mode	编辑单元格：XML 模式
 Edit cell: SVG mode	编辑单元格：SVG 模式
@@ -423,63 +423,63 @@ Edit cell: Evaluation mode	编辑单元格：求值模式
 Plot: copy image	图表：复制图像
 Plot: save as PNG, JPG or SVG	图表：另存为 PNG、JPG 或 SVG
 Plot: load all data	图表：加载全部数据
-Plot: reset view	Plot: reset 视图
+Plot: reset view	图表：重置视图
 Plot: show legend	图表：显示图例
 Plot: stacked bars	图表：堆叠柱状图
-Plot: fixed number format	Plot: fixed number 格式
+Plot: fixed number format	图表：固定数字格式
 Plot: logarithmic scale (X)	图表：X 轴对数刻度
 Plot: logarithmic scale (Y)	图表：Y 轴对数刻度
-Create table	Create 表
-Modify table	Modify 表
+Create table	创建表
+Modify table	修改表
 Create index	创建索引
 Import table from CSV file	从 CSV 文件导入表
 Import table from CSV data in clipboard	从剪贴板 CSV 数据导入表
 Import database from SQL file	从 SQL 文件导入数据库
-Export table(s) as CSV file	导出表(s) as CSV 文件
+Export table(s) as CSV file	将选中的表导出为 CSV 文件
 Export table(s) to JSON	将表导出为 JSON
 Export database to SQL file	将数据库导出为 SQL 文件
-Compact database	Compact 数据库
+Compact database	压缩数据库
 Integrity check	完整性检查
 Quick integrity check	快速完整性检查
 Foreign-key check	外键检查
-Optimize database	Optimize 数据库
+Optimize database	优化数据库
 Show row counts in a SQL tab	在 SQL 标签页显示行数
 Load extension	加载扩展
-Attach database	Attach 数据库
-Detach database	Detach 数据库
+Attach database	附加数据库
+Detach database	分离数据库
 Open project	打开项目
 Save project	保存项目
 Save project as	项目另存为
 Close project	关闭项目
-Save database as	保存数据库 as
+Save database as	数据库另存为
 Schema drops: SELECT statement	结构拖放：生成 SELECT 语句
 Schema drops: INSERT statement	结构拖放：生成 INSERT 语句
-Schema drops: just names	结构定义 drops：just 名称
-Schema drops: qualified names	结构定义 drops：qualified 名称
-Schema drops: quoted names	结构定义 drops：quoted 名称
-Move cells down	移动单元格向下
-Move cells up	移动单元格向上
+Schema drops: just names	结构拖放：仅名称
+Schema drops: qualified names	结构拖放：包含模式名
+Schema drops: quoted names	结构拖放：为名称加引号
+Move cells down	下移单元格
+Move cells up	上移单元格
 Zoom notebook in	放大笔记本
-Reset notebook zoom	重置笔记本 zoom
+Reset notebook zoom	重置笔记本缩放
 Save notebook	保存笔记本
-Undo cell operation	Undo 单元格 operation
-Select cell below	选择单元格 below
-Select cell above	选择单元格 above
-Scroll notebook down	Scroll 笔记本向下
+Undo cell operation	撤销单元格操作
+Select cell below	选择下方单元格
+Select cell above	选择上方单元格
+Scroll notebook down	向下滚动笔记本
 Copy cells	复制单元格
 Change to raw	切换为原始内容单元格
-Insert cell below	插入单元格 below
-Paste cells below	Paste 单元格 below
-Redo cell operation	Redo 单元格 operation
-Save notebook (command mode)	保存笔记本 (命令 mode)
-Cut cells	Cut 单元格
-Run cell, select below	Run 单元格, select below
-Run selected cells	Run 选中 单元格
+Insert cell below	在下方插入单元格
+Paste cells below	在下方粘贴单元格
+Redo cell operation	重做单元格操作
+Save notebook (command mode)	保存笔记本（命令模式）
+Cut cells	剪切单元格
+Run cell, select below	运行当前单元格并选择下方单元格
+Run selected cells	运行选中的单元格
 Apply metadata	应用元数据
-Run cell, insert below	Run 单元格, insert below
-Insert cell above	插入单元格 above
-Paste cells above	Paste 单元格 above
-Delete cells (press twice)	删除单元格 (press twice)
+Run cell, insert below	运行当前单元格并在下方插入单元格
+Insert cell above	在上方插入单元格
+Paste cells above	在上方粘贴单元格
+Delete cells (press twice)	删除单元格（按两次）
 Change to code	切换为代码单元格
 Change to markdown	切换为 Markdown 单元格
 Heading 1	一级标题
@@ -488,61 +488,61 @@ Heading 3	三级标题
 Heading 4	四级标题
 Heading 5	五级标题
 Heading 6	六级标题
-Extend selection above	Extend 选区 above
-Extend selection below	Extend 选区 below
-Merge selected cells	Merge 选中 单元格
-Split cell	Split 单元格
+Extend selection above	向上扩展选区
+Extend selection below	向下扩展选区
+Merge selected cells	合并选中的单元格
+Split cell	拆分单元格
 Interrupt kernel (press twice)	中断内核（按两次）
 Restart kernel (press twice)	重启内核（按两次）
 Line numbers	行 numbers
 Line numbers in all cells	在所有单元格中显示行号
 Collapse output	折叠输出
 Scroll output	滚动查看输出
-Scroll notebook up	Scroll 笔记本向上
-Notebook keyboard shortcuts	笔记本 keyboard 快捷键
-Zoom notebook out	Zoom 笔记本 out
+Scroll notebook up	向上滚动笔记本
+Notebook keyboard shortcuts	笔记本快捷键
+Zoom notebook out	缩小笔记本
 Find and replace in notebook	在笔记本中查找替换
 Complete	自动补全
 Show inspection tooltip	显示检查提示
-Leave cell editor	Leave 单元格 编辑器
+Leave cell editor	退出单元格编辑
 Run all cells	运行全部单元格
-Run cells above	Run 单元格 above
-Run selected cell and below	Run 选中 单元格 and below
+Run cells above	运行上方所有单元格
+Run selected cell and below	运行当前及下方所有单元格
 Duplicate cells	复制单元格
 Delete cells	删除单元格
-Merge cell above	Merge 单元格 above
-Merge cell below	Merge 单元格 below
+Merge cell above	与上方单元格合并
+Merge cell below	与下方单元格合并
 Collapse input	折叠输入
-Clear cell output	清空单元格 output
+Clear cell output	清空单元格输出
 Clear all outputs	清空所有输出
 Interrupt kernel	中断内核
 Restart kernel	重启内核
 Restart kernel and clear outputs	重启内核并清空输出
 Restart kernel and run all	重启内核并运行全部
 Shut down kernel	关闭内核
-Change interpreter	更改 interpreter
-Save notebook as	保存笔记本 as
-Rename notebook	Rename 笔记本
+Change interpreter	更换解释器
+Save notebook as	笔记本另存为
+Rename notebook	重命名笔记本
 Revert notebook to checkpoint	将笔记本恢复到检查点
 Reload notebook from disk	从磁盘重新加载笔记本
-Export notebook as Python	导出笔记本 as Python
-Export notebook as Markdown	导出笔记本 as Markdown
-Export notebook as HTML	导出笔记本 as HTML
+Export notebook as Python	将笔记本导出为 Python
+Export notebook as Markdown	将笔记本导出为 Markdown
+Export notebook as HTML	将笔记本导出为 HTML
 Table of contents	目录
-Cell properties	单元格 properties
+Cell properties	单元格属性
 Variables	变量
 Contextual help	上下文帮助
 Move card to the previous lane	卡片移至上一列
 Move card to the next lane	卡片移至下一列
-Undo board change	Undo board 更改
-Redo board change	Redo board 更改
+Undo board change	撤销看板更改
+Redo board change	重做看板更改
 Select card below	选中下方卡片
 Select card above	选中上方卡片
-Mark done or open	标记完成或重新打开
-Filter cards	筛选器 cards
+Mark done or open	标记为完成或未完成
+Filter cards	筛选卡片
 Move card down	下移卡片
 Move card up	上移卡片
-Switch board/list view	Switch board/list 视图
+Switch board/list view	切换看板与列表视图
 Delete card	删除卡片
 Edit card title	编辑卡片标题
 Card details	卡片详情
@@ -559,7 +559,7 @@ Rename lane	重命名列
 Move lane left	左移列
 Move lane right	右移列
 Delete lane	删除列
-Done lane	标记列完成
+Done lane	设为完成列
 Open as Markdown	作为 Markdown 打开
 Lock	锁定
 Ungroup	取消分组
@@ -574,7 +574,7 @@ Lasso tool	套索工具
 Arrow	箭头
 Flip vertically	垂直翻转
 Draw tool	画笔
-Line	行
+Line	直线
 Ellipse	椭圆
 Hand tool	抓手工具
 Zoom out	缩小
@@ -583,8 +583,8 @@ Flip horizontally	水平翻转
 Note	便签
 Highlighter	荧光笔
 Polygon	多边形
-Text tool	文本 tool
-Keep tool selected	Keep tool 选中
+Text tool	文本工具
+Keep tool selected	保持当前工具选中
 Bring to front	置于顶层
 Send to back	置于底层
 Align centers	水平居中对齐
@@ -639,24 +639,24 @@ Semi fill	半透明填充
 Back	后退
 Forward	前进
 New branch	新建分支
-Next commit	下一次提交
-Previous commit	上一次提交
+Next commit	下一条提交
+Previous commit	上一条提交
 Peek	预览
 Select working tree	选择工作区
 Commit message	提交信息
-Filter refs	筛选器 refs
+Filter refs	筛选分支与标签
 Next hunk	下一个差异块
 Previous hunk	上一个差异块
 Next file	下一个文件
 Previous file	上一个文件
 Cycle whitespace	切换空白字符比较
-Toggle hunk view	切换hunk 视图
+Toggle hunk view	切换差异块视图
 Expand context	展开上下文
 Toggle all context	切换全部上下文
 Edit file	编辑文件
 Stage	暂存更改
-Discard lines	Discard 行
-Discard file	Discard 文件
+Discard lines	放弃所选行的更改
+Discard file	放弃文件更改
 Current	当前
 On	开启
 Off	关闭
@@ -679,3 +679,41 @@ Commands	命令
 Files	文件
 Sessions	会话
 Hosts	主机
+Show previous tab	切回上一个标签页
+New in-memory database	新建内存数据库
+Next line	下一行
+Previous line	上一行
+Show all columns	显示所有列
+Edit cell: Import from file	编辑单元格：从文件导入
+Edit cell: Export to file	编辑单元格：导出到文件
+Edit cell: Focus the editor	编辑单元格：聚焦编辑器
+Select all cells	选择所有单元格
+Quick terminal	快捷终端
+Style	样式
+Hide when it loses focus	失去焦点时隐藏
+Forget saved host…	移除已保存的主机…
+Reopen closed tab	重新打开关闭的标签页
+Review changes	审查更改
+Keep as a tab in the main window	保留为主窗口中的标签页
+Switch host window…	切换主机窗口…
+Files: Upload files to remote folder…	文件：上传到远程文件夹…
+Files: Download to this machine	文件：下载到本机
+Move pane to window…	将区块移至窗口…
+Move tab to window…	将标签页移至窗口…
+Edit widgets…	编辑底部组件…
+Widget bar style: Plain	组件栏样式：简洁
+Widget bar style: Pills	组件栏样式：胶囊
+Widget bar style: Outline	组件栏样式：边框
+Widget bar style: Divided	组件栏样式：分隔线
+Search in project…	在项目中搜索…
+Send selection to agent	将选中内容发送给智能体
+Sign in to Stencil	登录 Stencil
+Set up macOS permissions	设置 macOS 权限
+Install ovnfs	安装 ovnfs
+Check for ovnfs updates	检查 ovnfs 更新
+Stop managing ovnfs	停止管理 ovnfs
+Install ABKit	安装 ABKit
+Check for ABKit updates	检查 ABKit 更新
+Stop managing ABKit	停止管理 ABKit
+Set to NULL	设为 NULL
+Set value to NULL	将值设为 NULL
