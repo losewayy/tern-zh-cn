@@ -1,0 +1,2 @@
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"麦克风对话使用的实时语音。Codex 可用 arbor、breeze、cove、ember、juniper、maple、sol、spruce、vale。留空使用 OMP 的设置。语音功能需要在 OMP 中登录 ChatGPT（Codex），或将 OMP 的 live.endpoint 指向自己的实时语音服务器。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

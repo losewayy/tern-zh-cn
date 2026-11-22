@@ -21,6 +21,10 @@ local waitingForWindow = 0
 local identifying = true
 local cache = {}
 local scope = "main#panel > .tn-stage > .pf.sheet > .pf-scroll > "
+local newVersion = "tern 0.9.30 (fe54a4c)"
+local function modernVersion(version)
+    return version == newVersion or version == "tern 0.9.23 (35c63ab)"
+end
 local modernLoaded = false
 local modernPages = { "General", "Agents", "Appearance", "Terminal", "Lenses", "Databases", "Notebooks", "Carly", "Keyboard", "Git", "Plugins", "Sessions", "Hosts", "Advanced" }
 
@@ -51,13 +55,15 @@ local function readSmall(path, limit)
     return ok and value or nil
 end
 
+local layout0930 = require("./layout-0930")
+
 local function pageStyles(page, version)
     local name = pageFiles[page]
     if not name then return "" end
     local key = version .. ":" .. name
     if cache[key] then return cache[key] end
     local directory = tern.plugin.dir
-    if version == "tern 0.9.23 (35c63ab)" then
+    if modernVersion(version) then
         directory ..= "/compat/0.9.23"
     end
     if version == "tern 0.9.9 (9c1c09f)" and (name == "general" or name == "keyboard" or name == "advanced") then
@@ -66,7 +72,12 @@ local function pageStyles(page, version)
     local source = readSmall(directory .. "/prefs-" .. name .. ".css", 1024 * 1024)
     if not source then return "" end
     local lines = {}
-    local pageScope = version == "tern 0.9.23 (35c63ab)" and controlStyles.scope(name) or scope
+    local pageScope = modernVersion(version) and controlStyles.scope(name) or scope
+    if version == newVersion then
+        source = layout0930.styles(name, source)
+        local additions = readSmall(tern.plugin.dir .. "/compat/0.9.30/prefs-" .. name .. ".css", 1024 * 1024)
+        if additions then source ..= "\n" .. additions end
+    end
     for line in (source .. "\n"):gmatch("([^\n]*)\n") do
         if not line:match("^%s*main:nth%-of%-type%(%s*1%s*%)>div:nth%-of%-type%(%s*1%s*%)>div:nth%-of%-type%(%s*7%s*%)") then
             line = line:gsub("^(%s*)%.pf%-doc", "%1" .. pageScope .. ".pf-doc")
@@ -75,16 +86,16 @@ local function pageStyles(page, version)
         end
     end
     local result = table.concat(lines, "\n")
-    if version == "tern 0.9.23 (35c63ab)" then result ..= "\n" .. controlStyles.fixed(name) end
+    if modernVersion(version) then result ..= "\n" .. controlStyles.fixed(name, version == newVersion) end
     cache[key] = result
     return result
 end
 
-local function installModernPage(index)
+local function installModernPage(index, version)
     local page = modernPages[index]
-    tern.css("prefs-" .. pageFiles[page], pageStyles(page, "tern 0.9.23 (35c63ab)"))
+    tern.css("prefs-" .. pageFiles[page], pageStyles(page, version))
     if index < #modernPages then
-        tern.timer(0, function() installModernPage(index + 1) end)
+        tern.timer(0, function() installModernPage(index + 1, version) end)
     end
 end
 
@@ -123,11 +134,11 @@ local function poll(cx)
         end
     end
     if version and page then
-        local supported = version == "tern 0.9.23 (35c63ab)" or version == "tern 0.9.12 (e498b49)" or version == "tern 0.9.9 (9c1c09f)"
-        local modern = version == "tern 0.9.23 (35c63ab)"
+        local supported = modernVersion(version) or version == "tern 0.9.12 (e498b49)" or version == "tern 0.9.9 (9c1c09f)"
+        local modern = modernVersion(version)
         if modern and not modernLoaded then
             modernLoaded = true
-            installModernPage(1)
+            installModernPage(1, version)
         end
         local key = supported and not modern and (version .. ":" .. page) or ""
         if key ~= lastPage then

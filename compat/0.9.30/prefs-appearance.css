@@ -1,0 +1,6 @@
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"分屏时调暗未聚焦的窗格和区块，让当前区块更醒目。关闭后，各窗格保留原有对比度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体托盘";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将 OMP 正在运行的子智能体和后台任务以卡片显示在输入框上方。关闭后只显示运行数量，点击可打开相应列表。此设置立即应用到运行中的会话。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

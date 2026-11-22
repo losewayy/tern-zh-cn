@@ -66,11 +66,26 @@ local function addLabel(rules, page, definition, text)
 end
 
 local fixedCache = {}
-local function fixed(page)
+local layout0930 = require("./layout-0930")
+local function fixed(page, newLayout)
     if fixedCache[page] then return fixedCache[page] end
     local rules = {}
     for _, definition in ipairs(pages[page] or {}) do
-        if definition.mode == "fixed" then addLabel(rules, page, definition, labels[definition.source]) end
+        if definition.mode == "fixed" then
+            if newLayout then
+                local changed = table.clone(definition)
+                changed.selector = layout0930.selector(page, definition.selector)
+                if changed.selector then addLabel(rules, page, changed, labels[definition.source]) end
+            else
+                addLabel(rules, page, definition, labels[definition.source])
+            end
+        end
+    end
+    if newLayout and page == "advanced" then
+        addLabel(rules, page, {
+            selector = "section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)",
+            icon = "-",
+        }, "跟随显示器")
     end
     local css = table.concat(rules, "\n")
     fixedCache[page] = css

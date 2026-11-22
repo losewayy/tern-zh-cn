@@ -1,0 +1,8 @@
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(32)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(32)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"复制会话链接";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(32)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(32)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 OMP 聊天中。 · copy_session_link";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(98)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(98)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"显示或隐藏组件栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(128)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(128)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在文件资源管理器中显示文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}

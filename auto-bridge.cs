@@ -364,7 +364,7 @@ public static class TernAutoBridge {
                         Publish(channel + ".version", version);
                         while (!parent.HasExited && IsWindow(hwnd)) {
                             try {
-                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)");
+                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)" || version == "tern 0.9.30 (fe54a4c)");
                                 if (page != lastPage) { Publish(channel + ".page", page); lastPage = page; }
                                 string controls = SettingsControls(page);
                                 if (controls != lastControls) { Publish(channel + ".controls", controls); lastControls = controls; }

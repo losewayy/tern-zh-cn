@@ -1,7 +1,7 @@
 schema = 1
 id = "tern-zh-plus"
 name = "Tern 简体中文"
-version = "0.7.1"
-description = "适配 Tern 0.9.23、0.9.12 和 0.9.9 的非官方简体中文界面插件（Windows）"
+version = "0.7.2"
+description = "适配 Tern 0.9.30、0.9.23、0.9.12 和 0.9.9 的非官方简体中文界面插件（Windows）"
 window = "window.luau"
 styles = ["base.css", "settings-navigation.css"]
