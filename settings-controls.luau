@@ -5,7 +5,6 @@ local function scope(page)
 end
 local function root(page) return scope(page) .. '.pf-doc > ' end
 local labels = {}
-local pages = {}
 local images = {}
 local cachedKey = nil
 local cachedCss = ""
@@ -16,18 +15,38 @@ local function fields(line)
     return result
 end
 
+local function controls(path)
+    local result = {}
+    local ok, text = pcall(tern.fs.read, path, 1024 * 1024)
+    if not ok or not text then return result end
+    for line in text:gmatch("[^\r\n]+") do
+        local row = fields(line)
+        if #row == 8 then
+            result[row[1]] = result[row[1]] or {}
+            table.insert(result[row[1]], {
+                row = row[2] .. "\t" .. row[3], item = tonumber(row[4]), selector = row[5], icon = row[6], source = row[7], mode = row[8],
+            })
+        end
+    end
+    return result
+end
+
 for line in tern.fs.read(tern.plugin.dir .. "/settings-labels.tsv", 1024 * 1024):gmatch("[^\r\n]+") do
     local row = fields(line)
     if #row == 2 then labels[row[1]] = row[2] end
 end
-for line in tern.fs.read(tern.plugin.dir .. "/settings-controls.tsv", 1024 * 1024):gmatch("[^\r\n]+") do
-    local row = fields(line)
-    if #row == 8 then
-        pages[row[1]] = pages[row[1]] or {}
-        table.insert(pages[row[1]], {
-            row = row[2] .. "\t" .. row[3], item = tonumber(row[4]), selector = row[5], icon = row[6], source = row[7], mode = row[8],
-        })
-    end
+
+-- Tern moves rows between builds; each compat folder carries its own table.
+local shared = controls(tern.plugin.dir .. "/settings-controls.tsv")
+local byVersion = { ["tern 0.9.23 (35c63ab)"] = shared, ["tern 0.9.30 (fe54a4c)"] = shared }
+local function pagesFor(version)
+    local pages = byVersion[version]
+    if pages then return pages end
+    local build = version and version:match("tern (%d+%.%d+%.%d+)")
+    pages = build and controls(tern.plugin.dir .. "/compat/" .. build .. "/settings-controls.tsv") or nil
+    if not pages or not next(pages) then pages = shared end
+    if version then byVersion[version] = pages end
+    return pages
 end
 
 local function xml(value)
@@ -67,10 +86,12 @@ end
 
 local fixedCache = {}
 local layout0930 = require("./layout-0930")
-local function fixed(page, newLayout)
-    if fixedCache[page] then return fixedCache[page] end
+local function fixed(page, version)
+    local key = page .. ":" .. (version or "")
+    if fixedCache[key] then return fixedCache[key] end
+    local newLayout = version == "tern 0.9.30 (fe54a4c)"
     local rules = {}
-    for _, definition in ipairs(pages[page] or {}) do
+    for _, definition in ipairs(pagesFor(version)[page] or {}) do
         if definition.mode == "fixed" then
             if newLayout then
                 local changed = table.clone(definition)
@@ -88,11 +109,11 @@ local function fixed(page, newLayout)
         }, "跟随显示器")
     end
     local css = table.concat(rules, "\n")
-    fixedCache[page] = css
+    fixedCache[key] = css
     return css
 end
 
-local function live(page, snapshot, cx)
+local function live(page, snapshot, cx, version)
     snapshot = snapshot or ""
     local lines = {}
     for line in snapshot:gmatch("[^\r\n]+") do table.insert(lines, line) end
@@ -105,10 +126,10 @@ local function live(page, snapshot, cx)
     end
     local settingValues = {}
     for name in pairs(values) do settingValues[name] = cx.settings:get(name) end
-    local key = page .. "\n" .. snapshot .. tern.json.encode(settingValues)
+    local key = version .. "\n" .. page .. "\n" .. snapshot .. tern.json.encode(settingValues)
     if cachedKey == key then return cachedCss end
     local rules = {}
-    for target, definitions in pairs(pages) do
+    for target, definitions in pairs(pagesFor(version)) do
         for _, definition in ipairs(definitions) do
             if values[definition.mode] then
                 addLabel(rules, target, definition, values[definition.mode][settingValues[definition.mode]])

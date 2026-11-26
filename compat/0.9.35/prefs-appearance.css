@@ -1,0 +1,246 @@
+/* Tern 0.9.35 settings; loaded only for this page. */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"外观";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"主题";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"跟随 OMP 主题";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"OMP 默认深色主题为 titanium，浅色主题为 light。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"外观";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"外观";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"选择浅色、深色或跟随系统。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"终端字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端字体，可按优先顺序填写多个，留空使用 Ioskeley Mono Term。旁边设置终端及编辑器、差异和聊天中代码的字号；Ctrl+Shift+= 和 Ctrl+Shift+− 同时调整它与界面字号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"粗体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"粗体文字使用的字体，可按优先顺序填写多个。留空时使用所选终端字体的粗体，内置默认值为 Ioskeley Mono Term Medium。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"斜体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"斜体文字使用的字体，可按优先顺序填写多个。留空时沿用所选终端字体，内置默认值为 Ioskeley Mono Term。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"粗斜体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"粗斜体文字使用的字体，可按优先顺序填写多个。留空时使用所选终端字体的粗体，内置默认值为 Ioskeley Mono Term Medium。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字体粗细";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端文字的字重。粗体在此基础上增加 300，且不低于 700。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端网格之外的等宽字体，用于编辑器、区块和标签。留空时编辑器沿用终端字体，其余使用内置 Ioskeley Mono Term。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"界面字体，可按优先顺序填写多个，留空使用内置 Geist。旁边设置标签页、菜单、区块和设置等界面的字号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"行高";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"调整终端和代码的每一行高度，可使用像素或百分比。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字符宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"为终端和代码的每一列增加宽度，可填写整数像素（1、-1）或百分比（-7%），类似 Ghostty 的 adjust-cell-width。字符本身大小不变。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"内边距";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端文字到区块边缘的水平和垂直距离。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"文字像素对齐";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将文字对齐到整数像素，使其更锐利；字间距可能存在最多半个像素的偏差。关闭后按四分之一像素定位。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"对比度校正";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"提高与背景对比度不足的程序文字的亮度，使其符合 WCAG AA 标准。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"减少动态效果";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"停止动画、火焰和运行脉冲等动态效果，程序也会减少自身的动画。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"光标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"光标形状";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"自动模式保留各处的默认光标：终端使用方块，编辑器使用竖线，并允许程序切换。Shell 可在提示符处请求竖线，Vim 可随模式切换形状。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"允许程序修改光标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"允许 Shell、Vim 等程序临时切换上方选定的光标形状，结束后恢复。关闭后始终使用选定形状。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"光标闪烁";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"让光标闪烁；在终端中遵循程序的闪烁请求。停止输入 10 秒后，光标保持静止。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"平滑闪烁";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标闪烁时使用淡入淡出。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"平滑滑动";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标移动到新位置时的滑动时长。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"拖尾特效";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标快速移动时留下的拖尾效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"形状变化特效";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"程序切换光标形状时的动画。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于终端";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端区块使用此光标效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于聊天输入框";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"OMP 的聊天输入框也使用此效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于编辑器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文件编辑器也使用此效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"鼠标指针";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"鼠标移到终端上时的指针形状。可单击打开的链接仍显示为手形。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"界面样式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面布局";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端周围边框及界面控件的布局，可用 Ctrl+Shift+L 循环切换。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"表面材质";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"窗口背景的显示材质。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"不透明度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"背景遮住桌面的程度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"模糊";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"透明材质是否模糊窗口后方的桌面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面密度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"区块紧密排列，或各自显示成卡片。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标签页位置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在顶部横向排列标签页，或在侧边纵向显示所有会话的标签页。Ctrl+Shift+\\ 切换位置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动隐藏侧边标签页";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"侧边标签栏收起到窗口边缘，鼠标悬停时展开。Ctrl+Alt+Shift+\\ 切换显示与隐藏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在侧边标签上滚动以切换";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在侧边标签上使用滚轮或触控板时切换到上一个或下一个标签，而非滚动列表。触控板每次滑动切换一个标签。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"跨会话连续编号侧边标签";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将侧边栏中所有会话的标签连续编号，编号快捷键始终指向同一标签。关闭后仅为当前会话的标签编号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用系统标题栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在标签栏上方使用系统标题栏和窗口按钮，替代 Tern 在标签栏末端提供的按钮。部分 Linux 桌面（如 GNOME）不提供系统标题栏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"程序图标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"为标签、区块标题和暂存卡片指定程序图标。使用 program=icon 格式，如 codex=provider-openai、nvim=sparkle，按程序或命令匹配。插件为同一程序指定的图标优先，对应 settings.json 中的 program_icons。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t::before{content:"区块";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"区块标题栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"显示区块标题及分屏、浮动、最大化和关闭按钮，可选从不显示、分屏时显示或始终显示。除非底部组件栏已包含目录组件，否则标题也显示目录和分支。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"淡化未聚焦的区块";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"底部组件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"窗口底部的组件，包括当前区块的目录、分支和最近命令、本机状态、omp 的 AI 用量及插件组件。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"组件栏样式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"组件之间的区分方式，可选均匀留白、柔和胶囊、细线边框或分隔线。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"tmux 状态栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将区块内 tmux 的状态栏绘制为 Tern 风格的会话和窗口列表，可单击切换 tmux 窗口。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t::before{content:"程序";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"聊天布局";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"阅读：居中排版；时间线：按步骤展示；控制台：终端风格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"omp 设置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"omp 的 /settings 打开方式，可像 Tern 设置一样显示为区块上方的弹窗，或显示为聊天旁的侧栏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"折叠工具调用";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"回复出现后，将此前连续的工具调用和思考折叠为一行摘要，显示工作、读取和思考次数。适用于所有聊天布局。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"展开思考";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在回复中完整展开 omp 的思考，不显示用于折叠的“思考”行。正在进行的思考仍显示转动图标和计时器。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"上下文进度条";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 omp 输入框上方显示上下文占用进度条，单击可查看各部分占用。关闭后不显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"保持输入框展开";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"切换到其他区块时，omp 输入框仍保持展开。关闭后收起为一行，显示会话名、未发送草稿和用量，为对话留出更多空间。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"输入框显示方式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"输入草稿的显示方式。Markdown 像 Notion 一样显示粗体、代码、链接、标题、列表和引用，光标移入时才显示标记。纯文本始终显示输入的全部字符。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"Markdown 标题";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“标注”使用与正文相同的字号、粗体和淡色 # 标记。“自动”随聊天布局变化：阅读布局使用大字号标题，时间线和控制台布局使用标注。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码自动换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"回复中的代码长行按聊天宽度自动换行。关闭后保持单行，可横向滚动。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码修改对比";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"原生界面的差异显示方式。选择“分栏”且区块足够宽时，将修改前后的内容并排显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"制表符宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"代码和差异视图中一个 Tab 占用的列数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(1).tn-pf-hint{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(1).tn-pf-hint::before{content:"鼠标悬停可预览主题，单击即可应用，按住可查看整个窗口的效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Additional native settings labels. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"分屏时调暗没有焦点的窗格和区块，让当前区块更醒目。关闭后每个窗格保持原有对比度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标签页滑动切换";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"平铺布局中标签页排成一条无尽的长条：切换时下一个标签页从它所在的一侧滑入，越过最后一个会回到第一个。关闭后标签页立即切换。遵循「减少动态效果」设置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"对话宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"阅读器和时间线的列宽：「标准」让对话保持在居中的阅读栏，「宽」用更宽的列，「铺满」像控制台一样铺满整个窗格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"欢迎动画";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"空的阅读器对话打开时播放的效果：ASCII 字符爆散、盲文沿窗格打印，或点阵中泛起涟漪，首个提问前显示 OMP 的标志。「随机」在每次启动 Tern 时选一种。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体托盘";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将 OMP 正在运行的子智能体和后台任务以卡片显示在输入框上方。关闭后恢复为托盘之前的样子：输入框上方显示运行中的智能体和任务数量，点击其一打开智能体或任务列表。运行中的会话立即切换。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

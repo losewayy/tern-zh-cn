@@ -41,11 +41,12 @@ def main():
     parser.add_argument('--exe', required=True, help='Path to tern.com')
     parser.add_argument('--baseline', type=Path, default=BASELINE, help='Reviewed settings baseline to compare')
     parser.add_argument('--record-from-port', type=int, help='Record from an already running headless harness')
+    parser.add_argument('--record-version', default='0.9.23', help='Version the recorded baseline describes')
     args=parser.parse_args(); exe=str(Path(args.exe))
     if args.record_from_port:
         data=capture(exe,args.record_from_port)
-        args.baseline.write_text(json.dumps({'version':'0.9.23','pages':data},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-        print('Recorded',sum(map(len,data.values())),'settings elements across',len(data),'pages.')
+        args.baseline.write_text(json.dumps({'version':args.record_version,'pages':data},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        print('Recorded',sum(map(len,data.values())),'settings elements across',len(data),'pages for Tern',args.record_version+'.')
         return 0
     baseline=json.loads(args.baseline.read_text(encoding='utf-8'))
     expected=baseline['pages']

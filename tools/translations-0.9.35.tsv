@@ -1,0 +1,68 @@
+# Tern 0.9.35 settings text that is new or reworded since 0.9.23. English<TAB>Chinese.
+# Feeds tools/port_settings.py --translations; keys are the first 120 characters.
+# general
+What Ctrl+Shift+T, Ctrl+Shift+Enter and Ctrl+Shift+O start; Ask every time lists the block types to choose from. Ctrl+Shift+` always opens a shell block, Ctrl+Shift+A an agent block.	Ctrl+Shift+T、Ctrl+Shift+Enter 和 Ctrl+Shift+O 新建标签页或分屏时启动的程序。「每次询问」会列出可选的区块类型。Ctrl+Shift+` 始终打开 Shell 区块，Ctrl+Shift+A 始终打开智能体区块。
+At the edge of a tab	越过标签页边缘时
+What moving focus further towards a tab's edge does. Next tab goes to the previous or next tab (← and → with tabs along the top, ↑ and ↓ with side tabs) and stops at the first and last; Wrap around loops to the block on the opposite edge.	焦点已在标签页边缘的区块时，继续朝边缘移动的效果。「下一个标签页」会切换到上一个或下一个标签页（标签在顶部用 ← 和 →，在侧边用 ↑ 和 ↓），到首尾即停；「循环」会绕到另一端的区块。
+Move focus left into Files	向左移动焦点时进入文件面板
+Moving focus left from a block along the left edge focuses the Files pane while it shows.	文件面板可见时，从最左侧的区块继续向左移动焦点，就会进入文件面板。
+# agents
+Typing claude, codex or copilot in a new Tern shell opens it in Tern's chat over ACP; the first one asks once. `command claude` runs its own interface.	在新建的 Tern Shell 中输入 claude、codex 或 copilot 会通过 ACP 在 Tern 内聊天，首次使用时询问一次；使用 command claude 则运行它自己的界面。
+# appearance
+How far panes and blocks without focus recede under a wash while a tab is split, so the focused one stands out. Off, every pane keeps its full contrast.	分屏时调暗没有焦点的窗格和区块，让当前区块更醒目。关闭后每个窗格保持原有对比度。
+Slide between tabs	标签页滑动切换
+In Tiles, tabs sit side by side on an endless strip: switching slides the next one in from the side it lies on, past the last tab back to the first. Off, tabs swap at once. Respects Reduce Motion.	平铺布局中标签页排成一条无尽的长条：切换时下一个标签页从它所在的一侧滑入，越过最后一个会回到第一个。关闭后标签页立即切换。遵循「减少动态效果」设置。
+Chat width	对话宽度
+How wide Reader's and Spine's column runs: Standard keeps the conversation to a centered reading column, Wide to a broader one, Full width spreads it across the pane as Console does.	阅读器和时间线的列宽：「标准」让对话保持在居中的阅读栏，「宽」用更宽的列，「铺满」像控制台一样铺满整个窗格。
+Welcome intro	欢迎动画
+How an empty Reader chat opens: a burst of ASCII glyphs, braille printed down the pane or a ripple through the dots, with omp's mark in it until the first prompt. Random picks one each time Tern starts.	空的阅读器对话打开时播放的效果：ASCII 字符爆散、盲文沿窗格打印，或点阵中泛起涟漪，首个提问前显示 OMP 的标志。「随机」在每次启动 Tern 时选一种。
+Agents tray	智能体托盘
+omp's running subagents and background jobs show as cards over the composer. Off, they show as before the tray: counts of the running agents and jobs over the composer, a click on one opening the agents or the jobs list. Running sessions switch at once.	将 OMP 正在运行的子智能体和后台任务以卡片显示在输入框上方。关闭后恢复为托盘之前的样子：输入框上方显示运行中的智能体和任务数量，点击其一打开智能体或任务列表。运行中的会话立即切换。
+# carly
+The realtime voice the microphone talks to (on Codex: arbor, breeze, cove, ember, juniper, maple, sol, spruce, vale). Empty uses omp's. Voice needs omp signed in to ChatGPT (Codex), or omp's live.endpoint set to your own realtime server.	麦克风对话使用的实时语音（Codex 上：arbor、breeze、cove、ember、juniper、maple、sol、spruce、vale）。留空使用 OMP 的设置。语音功能需要在 OMP 中登录 ChatGPT（Codex），或将 OMP 的 live.endpoint 指向自己的实时语音服务器。
+# keyboard
+Reveal file in File Explorer	在文件资源管理器中显示文件
+Send to cloud	发送到云端
+Cloud environment…	云环境…
+Set up cloud environment…	设置云环境…
+Copy link to session	复制会话链接
+In omp chats. · copy_session_link	在 OMP 聊天中。 · copy_session_link
+Record pane	录制区块
+In terminals. · record_pane	在终端中。 · record_pane
+Layout: Dock	布局：停靠
+Show/hide widget bar	显示或隐藏组件栏
+Report performance issue	报告性能问题
+Report issue or feature request…	报告问题或功能建议…
+Paste cells below	在下方粘贴单元格
+In notebook blocks. · notebook.paste_below	在笔记本区块中。 · notebook.paste_below
+Copy as PNG	复制为 PNG
+In canvas blocks. · canvas.copy_as_png	在画布区块中。 · canvas.copy_as_png
+Select tool	选择工具
+In canvas blocks. · canvas.tool_select	在画布区块中。 · canvas.tool_select
+In git blocks and the Files pane's Changes and Refs tabs. · git.comment	在 Git 区块和文件面板的更改、引用标签页中。 · git.comment
+Mark reviewed	标为已审阅
+In git blocks and the Files pane's Changes and Refs tabs. · git.mark_reviewed	在 Git 区块和文件面板的更改、引用标签页中。 · git.mark_reviewed
+# sessions
+Close empty sessions	关闭空会话
+A session closes once its last tab closes or moves away, and the window shows the one before it; turning this on closes the empty ones now. Locked sessions, sessions with parked panes and the last session stay.	最后一个标签页关闭或移走后，该会话就会关闭，窗口显示上一个会话；开启时会立即关闭现有的空会话。锁定的会话、有暂存区块的会话及最后一个会话会保留。
+# hosts
+Cloud	云端
+Who runs the machines Send to cloud starts	「发送到云端」启动的机器由谁提供
+Machine size	机器规格
+What Send to cloud asks for	「发送到云端」申请的规格
+Pause after	闲置后暂停
+An idle machine pauses after this long and resumes when you open it	机器闲置超过此时长后暂停，打开时自动恢复
+Send my model sign-ins	同步我的模型登录信息
+So agents on the machine use your models. Providers that rotate sign-in tokens may sign this computer out after the machine refreshes them	同步后机器上的智能体可以使用你的模型。会轮换登录令牌的提供方可能在机器刷新令牌后让本机退出登录
+Send GitHub sign-in	同步 GitHub 登录
+Your gh (else git credential) token, so clone, push and gh work on the machine	同步 gh（或 git credential）令牌，机器上的 clone、push 和 gh 才能使用
+Also send ignored files	同时发送被忽略的文件
+Git-ignored files matching these globs travel too	匹配这些通配符的 Git 忽略文件也会一并发送
+Rebuild environments after	重建环境的时间
+Self-hosted environment snapshots older than this rebuild after a Send	自建环境快照早于此时间时，会在下次发送后重建
+# advanced
+Frame rate	帧率
+Most frames a second Tern draws. Lower uses less power on fast displays; it rounds down to an even share of the display's refresh, so 60 draws 55 on a 165 Hz display.	Tern 每秒绘制的帧数上限。在高速显示器上降低帧率可省电；实际帧率取显示器刷新率的整数分之一，例如 165 Hz 显示器设为 60 帧时实际绘制 55 帧。
+Frames wait for the display's refresh. Off shows each one at once: a little sooner, but it may tear. Doesn't change the frame rate.	等待显示器刷新后再呈现画面。关闭后立即呈现，延迟稍低，但可能出现画面撕裂。不改变帧率。
+Comment	添加评论
+Provider	提供方

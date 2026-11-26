@@ -1,0 +1,41 @@
+/* Tern 0.9.35 settings; loaded only for this page. */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"模型";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 使用的 OMP 模型，可以填写角色（@smol、@default）或模型名称；使用你在 OMP 中登录的账号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"记忆";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 每次对话开始时读取并持续更新的 Markdown，包括角色（SOUL.md）、用户（USER.md）、长期记忆（MEMORY.md）、每日笔记及心跳检查表（HEARTBEAT.md）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"启动时使用语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"打开 Carly 时自动开启麦克风，方便立即说话。无论此项是否开启，都可以点击麦克风或在空输入框中按回车来开关麦克风。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"计划任务";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"检查间隔";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 按此间隔检查 HEARTBEAT.md，仅在有事需要你时提醒。检查表为空时不运行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Additional native settings labels. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"检查间隔";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 按此间隔检查 HEARTBEAT.md，仅在有事需要你时提醒。检查表为空时不运行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"可以让 Carly 安排提醒，或留意某项变化。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Secondary settings captions. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(1)>span:nth-of-type(1).dim{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(1)>span:nth-of-type(1).dim::before{content:"· 内置";font-size:12px;display:inline-block;white-space:nowrap;}
+.pf-doc .tn-ct-title[title="Run history for Heartbeat"]{font-size:0!important;white-space:nowrap;}
+.pf-doc .tn-ct-title[title="Run history for Heartbeat"]::before{content:"定时检查";font-size:13px;display:inline-block;white-space:nowrap;}
+.pf-doc .tn-ct .dim{white-space:nowrap;}
+.pf-doc .tn-ct .dim::before{white-space:nowrap;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"麦克风对话使用的实时语音（Codex 上：arbor、breeze、cove、ember、juniper、maple、sol、spruce、vale）。留空使用 OMP 的设置。语音功能需要在 OMP 中登录 ChatGPT（Codex），或将 OMP 的 live.endpoint 指向自己的实时语音服务器。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

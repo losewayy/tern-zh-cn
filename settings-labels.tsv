@@ -87,7 +87,7 @@ Split	分屏
 Standard	标准
 Start Managing	开始管理
 Start folder	起始文件夹
-Stay	保持当前会话
+Stay	保持当前
 Stop Managing	停止管理
 Studio	工作室
 Summon	唤出
@@ -104,3 +104,14 @@ Window	弹窗
 Run now	立即运行
 Heartbeat	定时检查
 Add profile	添加身份配置
+Ask every time	每次询问
+Next tab	下一个标签页
+Wrap around	循环
+Stencil Cloud	Stencil 云端
+Self-hosted	自托管
+Random	随机
+Shockwave	冲击波
+Dot-matrix	点阵
+Halftone	半调
+Display	跟随显示器
+Dock	停靠

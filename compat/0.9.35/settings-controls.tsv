@@ -1,0 +1,145 @@
+general	New tabs and splits open	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Shell	fixed
+general	New tabs and splits open	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Agent	fixed
+general	New tabs start in	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Current directory	fixed
+general	New tabs start in	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Start folder	fixed
+general	Open links with	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Click	fixed
+general	Open links with	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Ctrl-click	fixed
+general	Open web links in	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Default browser	fixed
+general	Auto-save	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Off	fixed
+general	Auto-save	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	After a delay	fixed
+general	Auto-save	1	3	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	On focus change	fixed
+general	Tern <version>	1	1	section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Check for Updates	live
+general	Managed by Tern	1	1	section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Install omp	live
+general	Managed by Tern	1	2	section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)	-		live
+general	Managed by Tern	2	1	section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Install ovnfs	live
+general	Managed by Tern	2	2	section:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)	-		live
+general	Managed by Tern	3	1	section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Install ABKit	live
+general	Managed by Tern	3	2	section:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)	-		live
+agents	Agent opens	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Split	fixed
+agents	Agent opens	1	2	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Replace	fixed
+agents	Agent opens	1	3	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	New tab	fixed
+agents	Command line tool	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	-	Install	fixed
+agents	Command line tool	2	1	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	-	Install	fixed
+agents	Agents	1	1	section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	left	Add	fixed
+agents	Servers	1	1	section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	left	Add	fixed
+appearance	Appearance	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	System	fixed
+appearance	Appearance	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Light	fixed
+appearance	Appearance	1	3	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Dark	fixed
+appearance	Contrast correction	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Light themes	fixed
+appearance	Contrast correction	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Always	fixed
+appearance	Contrast correction	1	3	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Off	fixed
+appearance	Reduce motion	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	System	fixed
+appearance	Reduce motion	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	On	fixed
+appearance	Reduce motion	1	3	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Off	fixed
+appearance	Shape	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Auto	fixed
+appearance	Shape	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Block	fixed
+appearance	Shape	1	3	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Soft	fixed
+appearance	Shape	1	4	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Bar	fixed
+appearance	Shape	1	5	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(5)	-	Underline	fixed
+appearance	Trail	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Off	fixed
+appearance	Trail	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Warp	fixed
+appearance	Trail	1	3	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Comet	fixed
+appearance	Trail	1	4	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Blaze	fixed
+appearance	Trail	1	5	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(5)	-	Sparks	fixed
+appearance	Trail	1	6	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(6)	-	Echo	fixed
+appearance	Pulse	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Off	fixed
+appearance	Pulse	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Ripple	fixed
+appearance	Pulse	1	3	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Boom	fixed
+appearance	Pulse	1	4	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Box ripple	fixed
+appearance	Pulse	1	5	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(5)	-	Box boom	fixed
+appearance	Pointer	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	I-beam	fixed
+appearance	Pointer	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Arrow	fixed
+appearance	Layout	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Rail	fixed
+appearance	Layout	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Float	fixed
+appearance	Layout	1	3	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Tiles	fixed
+appearance	Layout	1	4	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Studio	fixed
+appearance	Material	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Liquid Glass	fixed
+appearance	Material	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Clear	fixed
+appearance	Material	1	3	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Solid	fixed
+appearance	Density	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Islands	fixed
+appearance	Density	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Compact	fixed
+appearance	Tabs	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Top	fixed
+appearance	Tabs	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Side	fixed
+appearance	Pane headers	1	1	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Never	fixed
+appearance	Pane headers	1	2	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	When split	fixed
+appearance	Pane headers	1	3	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Always	fixed
+appearance	Widgets	1	1	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>button:nth-of-type(1)	left	Edit widgets…	fixed
+appearance	Widget bar style	1	1	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Plain	fixed
+appearance	Widget bar style	1	2	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Pills	fixed
+appearance	Widget bar style	1	3	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Outline	fixed
+appearance	Widget bar style	1	4	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Divided	fixed
+appearance	Chat style	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Reader	fixed
+appearance	Chat style	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Spine	fixed
+appearance	Chat style	1	3	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Console	fixed
+appearance	omp settings	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Window	fixed
+appearance	omp settings	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Beside the chat	fixed
+appearance	Composer	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Plain text	fixed
+appearance	Markdown headings	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Automatic	fixed
+appearance	Markdown headings	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Annotated	fixed
+appearance	Markdown headings	1	3	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Sized	fixed
+appearance	Edits	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Inline	fixed
+appearance	Edits	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Split	fixed
+terminal	Scrollbar	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Automatic	fixed
+terminal	Scrollbar	1	2	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Always	fixed
+terminal	Scrollbar	1	3	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Never	fixed
+terminal	Prompt segments	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>button:nth-of-type(1)	-	Left	fixed
+terminal	Prompt segments	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>button:nth-of-type(2)	-	Right	fixed
+terminal	Programs copy to the clipboard	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Allow	fixed
+terminal	Programs copy to the clipboard	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Ask	fixed
+terminal	Programs copy to the clipboard	1	3	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Never	fixed
+terminal	Program links	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Allow	fixed
+terminal	Program links	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Ask	fixed
+terminal	Program links	1	3	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Never	fixed
+databases	Default location	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	right		sqlite.location
+databases	Folder	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Choose…	fixed
+databases	File types	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	left	Add	fixed
+databases	Wrap lines	1	1	section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)>button:nth-of-type(1)	right		sqlite.wrap
+databases	Identifier quotes	1	1	section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(2)>button:nth-of-type(1)	right		sqlite.quotes
+databases	Extensions	1	1	section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	left	Add…	fixed
+notebooks	Figure format	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Retina	fixed
+carly	Memory	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Open memory	fixed
+carly	Memory	1	2	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)	left	New conversation	fixed
+keyboard	Style	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Drop	fixed
+keyboard	Style	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Summon	fixed
+git	Pull button	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Fetch only	fixed
+git	Pull button	1	2	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Fast-forward	fixed
+git	Pull button	1	3	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	FF only	fixed
+git	Pull button	1	4	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Rebase	fixed
+git	Text encoding	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	UTF-8	fixed
+git	Panel sizes	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>button:nth-of-type(1)	left	Reset sizes	fixed
+git	Copy public key	1	1	section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>button:nth-of-type(1)	left	Copy	fixed
+git	Try it	1	1	section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Open editor	fixed
+plugins	Plugins folder	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	left	Reload	fixed
+plugins	Plugins folder	1	2	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	left	Open plugins folder	fixed
+plugins	Install…	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	left	Install	fixed
+sessions	Sessions	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)	left	Switch session…	fixed
+sessions	Clicking another session's tab	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Switch	fixed
+sessions	Clicking another session's tab	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Stay	fixed
+sessions	Confirm before closing	1	1	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Never	fixed
+sessions	Confirm before closing	1	2	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Running programs	fixed
+sessions	Confirm before closing	1	3	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Always	fixed
+hosts	Add a host	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)	left	Add remote host…	fixed
+advanced	Renderer	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Automatic	fixed
+advanced	Renderer	1	3	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Integrated GPU	fixed
+advanced	MSAA	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Off	fixed
+advanced	settings.json	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	left	Open settings.json	fixed
+advanced	settings.json	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	left	Reload	fixed
+advanced	Logs and app state	1	1	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	left	Open logs	fixed
+advanced	Logs and app state	1	2	section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	left	Open app data	fixed
+carly	-	1	1	section.pf-sec .tn-ct button[title="Run this task now"]	-	Run now	fixed
+git	-	1	1	section.pf-sec .gp-add > .gp-add-foot > button.btn	left	Add profile	fixed
+general	New tabs and splits open	1	3	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Ask every time	fixed
+general	At the edge of a tab	1	1	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Stay	fixed
+general	At the edge of a tab	1	2	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Next tab	fixed
+general	At the edge of a tab	1	3	section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Wrap around	fixed
+appearance	Chat width	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Standard	fixed
+appearance	Chat width	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Wide	fixed
+appearance	Chat width	1	3	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Full width	fixed
+appearance	Welcome intro	1	1	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Random	fixed
+appearance	Welcome intro	1	2	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Shockwave	fixed
+appearance	Welcome intro	1	3	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)	-	Dot-matrix	fixed
+appearance	Welcome intro	1	4	section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)	-	Halftone	fixed
+hosts	Provider	1	1	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Stencil Cloud	fixed
+hosts	Provider	1	2	section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)	-	Self-hosted	fixed
+advanced	Frame rate	1	1	section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)	-	Display	fixed
+appearance	Layout	1	5	section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(5)	-	Dock	fixed
