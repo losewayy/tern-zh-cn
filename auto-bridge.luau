@@ -22,8 +22,9 @@ local identifying = true
 local cache = {}
 local scope = "main#panel > .tn-stage > .pf.sheet > .pf-scroll > "
 local newVersion = "tern 0.9.30 (fe54a4c)"
+local latestVersion = "tern 0.9.35 (ccfae03)"
 local function modernVersion(version)
-    return version == newVersion or version == "tern 0.9.23 (35c63ab)"
+    return version == latestVersion or version == newVersion or version == "tern 0.9.23 (35c63ab)"
 end
 local modernLoaded = false
 local modernPages = { "General", "Agents", "Appearance", "Terminal", "Lenses", "Databases", "Notebooks", "Carly", "Keyboard", "Git", "Plugins", "Sessions", "Hosts", "Advanced" }
@@ -63,7 +64,9 @@ local function pageStyles(page, version)
     local key = version .. ":" .. name
     if cache[key] then return cache[key] end
     local directory = tern.plugin.dir
-    if modernVersion(version) then
+    if version == latestVersion then
+        directory ..= "/compat/0.9.35"
+    elseif modernVersion(version) then
         directory ..= "/compat/0.9.23"
     end
     if version == "tern 0.9.9 (9c1c09f)" and (name == "general" or name == "keyboard" or name == "advanced") then
@@ -86,7 +89,7 @@ local function pageStyles(page, version)
         end
     end
     local result = table.concat(lines, "\n")
-    if modernVersion(version) then result ..= "\n" .. controlStyles.fixed(name, version == newVersion) end
+    if modernVersion(version) then result ..= "\n" .. controlStyles.fixed(name, version) end
     cache[key] = result
     return result
 end
@@ -150,7 +153,7 @@ local function poll(cx)
             cx:toast("info", "Tern 版本未通过设置页汉化校验", "为避免错译，设置页暂时保留英文。")
         end
         local snapshot = readSmall(channel .. ".controls", 512 * 1024)
-        local controls = modern and controlStyles.live(pageFiles[page] or "", snapshot, cx) or ""
+        local controls = modern and controlStyles.live(pageFiles[page] or "", snapshot, cx, version) or ""
         if controls ~= lastControls then
             tern.css("controls", controls)
             lastControls = controls

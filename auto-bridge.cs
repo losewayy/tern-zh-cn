@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Automation;
 
@@ -37,6 +38,7 @@ public static class TernAutoBridge {
     private static readonly UTF8Encoding Utf8 = new UTF8Encoding(false);
     private static readonly Dictionary<string, string> Names = new Dictionary<string, string>(StringComparer.Ordinal);
     private static readonly HashSet<string> ControlLabels = new HashSet<string>(StringComparer.Ordinal);
+    private static readonly Regex VersionLabel = new Regex(@"^Tern \d+\.\d+\.\d+ \([0-9a-f]+\)$");
     private static readonly HashSet<string> ControlRows = new HashSet<string>(StringComparer.Ordinal);
     private static AutomationElement SettingsContent;
     private static readonly Dictionary<string, string> SettingsHints = new Dictionary<string, string>(StringComparer.Ordinal) {
@@ -105,6 +107,10 @@ public static class TernAutoBridge {
             } catch (ElementNotAvailableException) {} catch (InvalidOperationException) {} catch (COMException) {}
         }
         return IntPtr.Zero;
+    }
+
+    private static bool Modern(string version) {
+        return version == "tern 0.9.35 (ccfae03)" || version == "tern 0.9.30 (fe54a4c)" || version == "tern 0.9.23 (35c63ab)";
     }
 
     private static string Version(Process parent) {
@@ -186,6 +192,8 @@ public static class TernAutoBridge {
             if (texts.Count < 2) continue;
             var label = texts[0];
             string name = label.Current.Name;
+            // The update row names the running build; the control table names it once.
+            if (VersionLabel.IsMatch(name)) name = "Tern <version>";
             if (page == "Agents" && name == "Command line tool") {
                 string help = texts[1].Current.Name;
                 if (help.StartsWith("Found at ", StringComparison.Ordinal)) {
@@ -364,7 +372,7 @@ public static class TernAutoBridge {
                         Publish(channel + ".version", version);
                         while (!parent.HasExited && IsWindow(hwnd)) {
                             try {
-                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)" || version == "tern 0.9.30 (fe54a4c)");
+                                string page = SettingsPage(root, Modern(version));
                                 if (page != lastPage) { Publish(channel + ".page", page); lastPage = page; }
                                 string controls = SettingsControls(page);
                                 if (controls != lastControls) { Publish(channel + ".controls", controls); lastControls = controls; }
