@@ -21,9 +21,10 @@ local waitingForWindow = 0
 local identifying = true
 local cache = {}
 local scope = "main#panel > .tn-stage > .pf.sheet > .pf-scroll > "
-local newVersion = "tern 0.9.30 (fe54a4c)"
+local version0930 = "tern 0.9.30 (fe54a4c)"
+local version0936 = "tern 0.9.36 (7123a24)"
 local function modernVersion(version)
-    return version == newVersion or version == "tern 0.9.23 (35c63ab)"
+    return version == version0936 or version == version0930 or version == "tern 0.9.23 (35c63ab)"
 end
 local modernLoaded = false
 local modernPages = { "General", "Agents", "Appearance", "Terminal", "Lenses", "Databases", "Notebooks", "Carly", "Keyboard", "Git", "Plugins", "Sessions", "Hosts", "Advanced" }
@@ -56,6 +57,12 @@ local function readSmall(path, limit)
 end
 
 local layout0930 = require("./layout-0930")
+local layout0936 = require("./layout-0936")
+
+local function remap0936(page, selector)
+    local previous = layout0930.selector(page, selector)
+    return previous and layout0936.selector(page, previous)
+end
 
 local function pageStyles(page, version)
     local name = pageFiles[page]
@@ -73,9 +80,18 @@ local function pageStyles(page, version)
     if not source then return "" end
     local lines = {}
     local pageScope = modernVersion(version) and controlStyles.scope(name) or scope
-    if version == newVersion then
-        source = layout0930.styles(name, source)
+    local remap
+    if version == version0930 or version == version0936 then
+        remap = version == version0936 and remap0936 or layout0930.selector
+        source = layout0930.styles(name, source, remap)
         local additions = readSmall(tern.plugin.dir .. "/compat/0.9.30/prefs-" .. name .. ".css", 1024 * 1024)
+        if additions and version == version0936 then
+            additions = layout0930.styles(name, additions, layout0936.selector)
+        end
+        if additions then source ..= "\n" .. additions end
+    end
+    if version == version0936 then
+        local additions = readSmall(tern.plugin.dir .. "/compat/0.9.36/prefs-" .. name .. ".css", 1024 * 1024)
         if additions then source ..= "\n" .. additions end
     end
     for line in (source .. "\n"):gmatch("([^\n]*)\n") do
@@ -86,7 +102,7 @@ local function pageStyles(page, version)
         end
     end
     local result = table.concat(lines, "\n")
-    if modernVersion(version) then result ..= "\n" .. controlStyles.fixed(name, version == newVersion) end
+    if modernVersion(version) then result ..= "\n" .. controlStyles.fixed(name, remap, version == version0936) end
     cache[key] = result
     return result
 end

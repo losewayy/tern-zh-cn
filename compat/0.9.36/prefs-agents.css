@@ -1,0 +1,2 @@
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在新的 Tern Shell 中输入 claude、codex 或 copilot，会通过 ACP 在 Tern 内打开聊天，首次使用时会询问。输入 command claude 可打开 Claude 自己的界面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

@@ -22,10 +22,9 @@ local function selector(page, source)
     return nil
 end
 
-local function styles(page, source)
-    if page ~= "appearance" and page ~= "advanced" and page ~= "keyboard" then return source end
+local function styles(page, source, remap)
     return (source:gsub("([^\n{]+)({[^\n]*)", function(rule, body)
-        local updated = selector(page, rule)
+        local updated = remap(page, rule)
         return updated and updated .. body or ""
     end))
 end

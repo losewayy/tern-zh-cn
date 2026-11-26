@@ -1,4 +1,4 @@
-# Tern 简体中文 0.7.2（Windows，适配 Tern 0.9.30）
+# Tern 简体中文 0.7.3（Windows，适配 Tern 0.9.36）
 
 适用于 Windows 的非官方 Tern 汉化插件，安装后随 Tern 自动加载，无需单独打开启动脚本。本项目不包含 Tern 主程序，也不是 Tern 官方发行版。
 
@@ -8,7 +8,7 @@
 
 **不需要注册 GitHub 账号，也不用下载源码 ZIP。** 已经安装 Tern 的用户，按下面三步操作即可。
 
-准备：使用 Windows，并安装受支持的 Tern。当前推荐 Tern **0.9.30 (fe54a4c)**，也兼容 **0.9.23 (35c63ab)**、**0.9.12 (e498b49)** 和 **0.9.9 (9c1c09f)**。版本号相同但构建编号不同，也可能无法启用设置页汉化。在线安装还需要 Git；如果电脑没有安装，请先从 [Git 官方 Windows 下载页](https://git-scm.com/install/windows) 安装 Git，装好后重新打开 Tern。
+准备：使用 Windows，并安装受支持的 Tern。当前推荐 Tern **0.9.36 (7123a24)**，也兼容 **0.9.30 (fe54a4c)**、**0.9.23 (35c63ab)**、**0.9.12 (e498b49)** 和 **0.9.9 (9c1c09f)**。版本号相同但构建编号不同，也可能无法启用设置页汉化。在线安装还需要 Git；如果电脑没有安装，请先从 [Git 官方 Windows 下载页](https://git-scm.com/install/windows) 安装 Git，装好后重新打开 Tern。
 
 1. 打开 Tern，找到能输入命令的终端区域。不要在设置搜索框里输入。
 2. 点击下面代码块右上角的复制按钮，粘贴到终端，按 **Enter（回车）**，等待安装命令结束。
@@ -51,7 +51,7 @@ tern plugin install github.com/losewayy/tern-zh-cn --force
 
 首次运行会在本机准备小程序，之后会复用已准备的文件以加快启动；文件留在本机时不会自行运行。
 
-目前针对 Windows 上的 Tern 0.9.30 (fe54a4c)、0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.23 和 0.9.30 使用新版弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要单独安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)。
+目前针对 Windows 上的 Tern 0.9.36 (7123a24)、0.9.30 (fe54a4c)、0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.23、0.9.30 和 0.9.36 使用设置弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要单独安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)。
 
 ## 截图
 
@@ -89,6 +89,6 @@ OMP 原生设置页（需安装 [omp-di18n 汉化扩展](https://github.com/lose
 
 ## 开发与兼容性
 
-`window.luau` 和 `auto-bridge.luau` 负责窗口内的样式；`auto-bridge.cs` 是随窗口启动和退出的小程序源码；`settings-navigation.css` 翻译新版左侧分类；根目录的 `prefs-*.css` 保存 0.9.12 设置页翻译，`compat/0.9.9` 保存旧版差异页面，`compat/0.9.23` 保存新版设置页翻译，`layout-0930.luau` 和 `compat/0.9.30` 调整 0.9.30 变动的设置位置和译文；`ui-labels.tsv` 保存命令名称翻译；`settings-controls.luau`、`settings-controls.tsv` 和 `settings-labels.tsv` 负责新版按钮、选项值及按当前分类限定的样式。旧启动脚本仅供已创建的快捷方式兼容使用。
+`window.luau` 和 `auto-bridge.luau` 负责窗口内的样式，`auto-bridge.cs` 是随窗口启动和退出的小程序源码，`settings-navigation.css` 翻译新版左侧分类。根目录的 `prefs-*.css` 保存 0.9.12 的设置页翻译，`compat/0.9.9` 保存旧版差异页面，`compat/0.9.23` 保存弹窗设置页的基础翻译。0.9.30 和 0.9.36 各有对应的 `layout-*.luau` 和 `compat` 子目录，用来对齐移动的条目和补充译文。`ui-labels.tsv` 保存命令名称翻译，`settings-controls.luau`、`settings-controls.tsv` 和 `settings-labels.tsv` 负责按钮、选项值及按当前分类限定的样式。旧启动脚本仅供已创建的快捷方式兼容使用。
 
 运行 `python tools/check_tern_settings.py --exe "<Tern 安装目录>/tern.com"`，可在无界面实例中对照 0.9.23 的 14 个设置分类。检查旧版时，用 `--baseline tools/tern-0.9.12-settings.json` 指定旧基准。此检查覆盖标题、分组、标签及说明，不代表全部动态控件均兼容。确认原文、布局和实际显示后，再为新构建启用设置页样式。隐私说明见 [PRIVACY.md](PRIVACY.md)，本项目采用 [MIT 许可证](LICENSE)。

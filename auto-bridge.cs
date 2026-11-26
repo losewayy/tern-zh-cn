@@ -186,6 +186,7 @@ public static class TernAutoBridge {
             if (texts.Count < 2) continue;
             var label = texts[0];
             string name = label.Current.Name;
+            if (page == "General" && name.StartsWith("Tern 0.", StringComparison.Ordinal)) name = "Tern version";
             if (page == "Agents" && name == "Command line tool") {
                 string help = texts[1].Current.Name;
                 if (help.StartsWith("Found at ", StringComparison.Ordinal)) {
@@ -364,7 +365,7 @@ public static class TernAutoBridge {
                         Publish(channel + ".version", version);
                         while (!parent.HasExited && IsWindow(hwnd)) {
                             try {
-                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)" || version == "tern 0.9.30 (fe54a4c)");
+                                string page = SettingsPage(root, version == "tern 0.9.23 (35c63ab)" || version == "tern 0.9.30 (fe54a4c)" || version == "tern 0.9.36 (7123a24)");
                                 if (page != lastPage) { Publish(channel + ".page", page); lastPage = page; }
                                 string controls = SettingsControls(page);
                                 if (controls != lastControls) { Publish(channel + ".controls", controls); lastControls = controls; }

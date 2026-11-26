@@ -66,26 +66,53 @@ local function addLabel(rules, page, definition, text)
 end
 
 local fixedCache = {}
-local layout0930 = require("./layout-0930")
-local function fixed(page, newLayout)
+local buttons0936 = {
+    general = {
+        {2, 1, 3, "每次询问"},
+        {2, 4, 1, "留在当前页"},
+        {2, 4, 2, "切换标签页"},
+        {2, 4, 3, "循环切换"},
+    },
+    appearance = {
+        {4, 1, 5, "停靠"},
+        {6, 3, 1, "随机"},
+        {6, 3, 2, "冲击波"},
+        {6, 3, 3, "点阵"},
+        {6, 3, 4, "网点"},
+    },
+    hosts = {
+        {5, 1, 2, "自托管"},
+    },
+}
+
+local function fixed(page, remap, latest)
     if fixedCache[page] then return fixedCache[page] end
     local rules = {}
     for _, definition in ipairs(pages[page] or {}) do
         if definition.mode == "fixed" then
-            if newLayout then
+            if remap then
                 local changed = table.clone(definition)
-                changed.selector = layout0930.selector(page, definition.selector)
+                changed.selector = remap(page, definition.selector)
                 if changed.selector then addLabel(rules, page, changed, labels[definition.source]) end
             else
                 addLabel(rules, page, definition, labels[definition.source])
             end
         end
     end
-    if newLayout and page == "advanced" then
+    if remap and page == "advanced" then
         addLabel(rules, page, {
             selector = "section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)",
             icon = "-",
         }, "跟随显示器")
+    end
+    if latest then
+        for _, item in ipairs(buttons0936[page] or {}) do
+            local section, row, button, caption = table.unpack(item)
+            addLabel(rules, page, {
+                selector = string.format("section:nth-of-type(%d)>div:nth-of-type(1)>div:nth-of-type(%d)>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(%d)", section, row, button),
+                icon = "-",
+            }, caption)
+        end
     end
     local css = table.concat(rules, "\n")
     fixedCache[page] = css
